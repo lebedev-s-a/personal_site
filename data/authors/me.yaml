@@ -2,12 +2,12 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Лебедев Сергей Алексеевич
+  given: Сергей
+  family: Лебедев
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  pronouns: он/его
 postnominals:
   - PhD
   - MIEEE
