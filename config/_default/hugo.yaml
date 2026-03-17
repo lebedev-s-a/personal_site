@@ -12,7 +12,7 @@ baseURL: 'https://lebedev-s-a.github.io/personal_site/'
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: ru
+defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
