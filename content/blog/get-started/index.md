@@ -1,10 +1,8 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
-date: 2023-10-27
+title: 🎉 Основы управления версиями Git
+summary: Базовое введение в Git и управление версиями
+date: 2026-03-18
 
-# Featured image
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
@@ -26,92 +24,63 @@ cover:
 
 authors:
   - me
-  - Ted
 
 tags:
-  - Academic
-  - Hugo Blox
-  - Markdown
+  - Git
+  - Version Control
+  - Development
 
 content_meta:
   trending: true
 ---
 
-Welcome 👋
+Добрый день 👋
 
 {{< toc mobile_only=true is_open=true >}}
 
-## Overview
+## Введение
 
-1. The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+Git — это система управления версиями, которая позволяет отслеживать изменения в коде и управлять историей проекта. Она широко используется в разработке программного обеспечения и является стандартом в индустрии.
 
-[//]: # '[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/HugoBlox/kit/main/templates/academic-cv/preview.png)](https://hugoblox.com)'
+## Зачем нужен Git
 
-### Get Started
+Git решает несколько важных задач:
 
-> [!TIP]+ Quick Start Guide
-> New to Hugo Blox? Follow these steps to get your site up and running in minutes!
+- хранение истории изменений проекта  
+- возможность вернуться к предыдущим версиям  
+- совместная работа над кодом  
+- контроль и безопасность изменений  
 
-- 👉 [**Create a new site**](https://hugoblox.com/templates/)
-- 📚 [**Personalize your site**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@MakeOwnable](https://x.com/MakeOwnable)  #MadeWithHugoBlox
-- 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/kit/issues)
-- ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/kit/releases)
+Это особенно важно при работе в команде, где несколько человек одновременно изменяют один и тот же проект.
 
-> [!IMPORTANT]
-> Remember to backup your site before making major updates!
+## Основные команды Git
 
-## Crowd-funded open-source software
+Ниже приведены базовые команды, которые используются чаще всего:
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+- `git init` — инициализация репозитория  
+- `git add .` — добавление файлов в индекс  
+- `git commit -m "message"` — сохранение изменений  
+- `git push` — отправка изменений на удалённый репозиторий  
+- `git pull` — получение изменений  
 
-### [❤️ Click here to become a sponsor and help support Hugo Blox's future ❤️](https://hugoblox.com/sponsor/)
+## Принцип работы
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://hugoblox.com/sponsor/) awesome rewards and extra features 🦄✨**
+Git работает через систему коммитов. Каждый коммит — это сохранённое состояние проекта в определённый момент времени.
 
-## Ecosystem
+Основные этапы работы:
 
-- **[Bibtex To Markdown](https://github.com/GetRD/academic-file-converter):** Automatically import publications from BibTeX
+1. Изменение файлов  
+2. Добавление в индекс (`git add`)  
+3. Создание коммита (`git commit`)  
+4. Отправка на сервер (`git push`)  
 
-## Inspiration
+## Преимущества Git
 
-[Learn what other **creators**](https://hugoblox.com/creators/) are building with this template.
+- высокая скорость работы  
+- распределённая система (каждый разработчик имеет полную копию проекта)  
+- гибкость и надёжность  
+- широкое распространение  
 
-## Features
+## Заключение
 
-> [!NOTE]+ Enhanced Markdown Support  
-> Hugo Blox now supports GitHub and Obsidian-style callouts! Use standard Markdown alert syntax like `> [!NOTE]` for better portability.
-
-- **Page builder** - Create _anything_ with no-code [**blocks**](https://hugoblox.com/blocks/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://docs.hugoblox.com/reference/markdown/), [**Jupyter**](https://docs.hugoblox.com/getting-started/cms/), or [**RStudio**](https://docs.hugoblox.com/getting-started/cms/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://docs.hugoblox.com/getting-started/customize/)
-- **Display Code and Math** - Code syntax highlighting and LaTeX math supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one-page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 35+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
-
-> [!WARNING]+ Version Requirements  
-> The new Markdown alert syntax requires Hugo v0.132.0 or later. Make sure you're using a compatible version!
-
-## Themes
-
-Hugo Blox and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
-
-[Choose a stunning **theme** and **font**](https://docs.hugoblox.com/getting-started/customize/) for your site. Themes are fully customizable.
-
-## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/HugoBlox/kit/blob/main/LICENSE.md) license.
+Git является важным инструментом для любого разработчика. Даже базовое понимание его принципов значительно упрощает работу с проектами и позволяет эффективно управлять кодом.
