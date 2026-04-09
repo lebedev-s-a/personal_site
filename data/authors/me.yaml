@@ -1,105 +1,106 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
   display: Лебедев Сергей Алексеевич
   given: Сергей
   family: Лебедев
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
   pronouns: он/его
-postnominals:
-  - Бакалавриат
+
 status:
   icon: "☕️"
-role: Студент РУДН
-bio: |
-  Сергей Лебедев - студент направления «Компьютерные науки» Российского университета дружбы народов (РУДН). Изучает программирование, архитектуру компьютеров и операционные системы.
 
-  Сфокусирован на развитии технических навыков и применении знаний на практике в рамках учебных и личных проектов.
+role: CS Student & Product Builder
+
+bio: |
+  Студент направления «Компьютерные науки» РУДН. Занимаюсь разработкой MVP-продуктов, автоматизацией и созданием веб-решений.
+
+  Фокус на практическом применении технологий, быстром прототипировании и тестировании идей.
+
 affiliations:
   - name: РУДН
     url: https://rudn.ru
 
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/lebedev-s-a
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com
+  - icon: at-symbol
+    url: mailto:your@email.com
+    label: E-mail
 
 interests:
-  - Программирование на Python/C++
-  - Компьютерные технологии
-  -	Веб разработка
-  - Изучение иностранных языков
+  - Разработка MVP и стартапов
+  - Автоматизация и AI-инструменты
+  - Веб-разработка
+  - Системное мышление
 
 education:
-  - degree: Бакалавриат, направление «Компьютерные науки»
-    institution: Российский университет дружбы народов (РУДН)
+  - degree: Бакалавриат, Компьютерные науки
+    institution: РУДН
     start: 2025-09-01
-    end: Настоящее время
+    end: настоящее время
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
+      Фокус на операционных системах, архитектуре компьютеров и программировании.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Product Builder / AI Automation
+    org: Self-employed
+    start: 2023-01-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Разработка MVP-продуктов (Telegram-боты, SaaS)  
+      Создание и тестирование продуктовых гипотез  
+      Разработка сайтов и лендингов  
+      Использование AI для ускорения разработки
+
+  - role: Студент (Computer Science)
+    org: РУДН
+    start: 2025-09-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Изучение операционных систем, архитектуры компьютеров и программирования  
+      Практика через собственные проекты
 
 skills:
   - name: Technical Skills
     items:
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
         level: 4
-  - name: Research & Communication
+      - label: C++
+        level: 3
+      - label: Linux / Bash
+        level: 4
+      - label: Web Development
+        level: 3
+
+  - name: Tools & Technologies
     items:
-      - label: Academic Writing
+      - label: Git
+        level: 4
+      - label: Hugo
+        level: 4
+      - label: AWS (basic)
+        level: 3
+      - label: AI Tools
         level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
 
 languages:
-  - name: English
+  - name: Russian
     level: 5
     label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+  - name: English
+    level: 3
+    label: B1–B2
+  - name: German
+    level: 2
+    label: A2
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: Built Multiple MVP Projects
+    date: "2025-01-01"
+    summary: Разработка и запуск нескольких MVP-продуктов
+
+  - title: Content with Millions of Views
+    date: "2024-01-01"
+    summary: Создание контента с суммарно миллионами просмотров

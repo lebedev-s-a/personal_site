@@ -1,81 +1,101 @@
 ---
-title: "An example preprint / working paper"
+title: "Язык разметки LaTeX"
 authors:
-- me
-date: "2019-04-07T00:00:00Z"
+  - me
+date: "2026-04-04T00:00:00Z"
+publishDate: "2026-04-04T00:00:00Z"
 
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
-
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
 publication_types: ["article"]
 
-# Publication name and optional abbreviated publication name.
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: "LaTeX — это язык разметки и система подготовки документов, широко используемая для создания научных, технических и учебных текстов. Он позволяет удобно оформлять структурированные документы, математические формулы, таблицы, списки литературы и другие сложные элементы."
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: "Краткий обзор языка разметки LaTeX, его особенностей, преимуществ и сфер применения."
 
 tags:
-- Large Language Models
+  - LaTeX
+  - Языки разметки
+  - Документы
+  - Технические тексты
 
 featured: true
 
-hugoblox:
-  ids:
-    arxiv: 1512.04133v1
+links: []
 
-links:
-- type: preprint
-  provider: arxiv
-  id: 1512.04133v1
-- type: code
-  url: https://github.com/HugoBlox/kit
-- type: slides
-  url: https://www.slideshare.net/
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
-- type: video
-  url: https://youtube.com
-- type: custom
-  label: Custom Link
-  url: http://example.org
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: ""
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-- internal-project
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+projects: []
 slides: ""
 ---
 
-This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
+LaTeX — это система подготовки документов, основанная на использовании текстовой разметки. В отличие от обычных текстовых редакторов, где оформление задаётся вручную через кнопки и панели инструментов, в LaTeX автор работает с исходным текстом и специальными командами, которые определяют структуру и внешний вид документа.
 
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
+## Что такое LaTeX
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+LaTeX был создан как надстройка над системой TeX и получил широкое распространение в научной, технической и академической среде. Основная идея LaTeX заключается в том, что автору не нужно постоянно думать о визуальном оформлении каждой строки. Вместо этого он задаёт логическую структуру документа: разделы, подразделы, формулы, таблицы, рисунки, ссылки и список литературы. После этого система автоматически формирует аккуратно оформленный документ.
+
+Такой подход особенно удобен при подготовке курсовых работ, научных статей, дипломов, презентаций и отчётов.
+
+## Особенности языка разметки LaTeX
+
+Одной из главных особенностей LaTeX является использование команд для оформления документа. Например, чтобы создать раздел, используется специальная команда, а для выделения математической формулы применяется другой синтаксис. Это делает документ более структурированным и удобным для дальнейшей обработки.
+
+Пример простейшего документа на LaTeX:
+
+    \documentclass{article}
+    \usepackage[utf8]{inputenc}
+    \usepackage[russian]{babel}
+
+    \begin{document}
+
+    \section{Введение}
+    Это пример простого документа на LaTeX.
+
+    \end{document}
+
+В этом примере задаётся тип документа, подключается поддержка русской кодировки и языка, после чего начинается основная часть документа.
+
+## Преимущества LaTeX
+
+Одним из самых важных преимуществ LaTeX является высокое качество оформления. Документы, созданные с его помощью, обычно выглядят более профессионально и аккуратно, чем тексты, подготовленные в обычных редакторах без строгих шаблонов.
+
+Также LaTeX особенно ценится за удобную работу с математическими формулами. Например, даже сложные выражения можно записывать в структурированном и понятном виде. Это делает LaTeX практически стандартом в математике, физике, информатике и инженерных дисциплинах.
+
+Кроме того, LaTeX хорошо подходит для больших документов. Если текст содержит множество разделов, таблиц, рисунков, перекрёстных ссылок и библиографических источников, система позволяет автоматизировать нумерацию, оформление содержания и список литературы.
+
+К преимуществам LaTeX можно отнести:
+- высокое качество итогового документа;
+- удобную работу с формулами;
+- автоматическую нумерацию разделов, рисунков и таблиц;
+- возможность оформления библиографии;
+- удобство при создании больших и сложных документов;
+- чёткое разделение содержания и оформления.
+
+## Недостатки LaTeX
+
+Несмотря на свои преимущества, LaTeX имеет и определённые сложности. Прежде всего, он требует изучения команд и структуры документа. Для новичка такой подход может показаться менее удобным, чем работа в привычном визуальном редакторе.
+
+Также простые документы иногда быстрее сделать в обычных текстовых программах, если не требуется сложное оформление. Поэтому LaTeX особенно полезен там, где есть технические, научные или академические требования.
+
+## Где применяется LaTeX
+
+LaTeX широко используется в разных областях. Чаще всего его применяют:
+- при написании научных статей;
+- при подготовке курсовых и дипломных работ;
+- при создании технической документации;
+- при оформлении презентаций;
+- при работе с математическими и физическими текстами;
+- при создании отчётов и учебных материалов.
+
+Во многих университетах и научных сообществах LaTeX считается стандартным инструментом для подготовки серьёзных документов.
+
+## Заключение
+
+LaTeX является важным языком разметки и инструментом подготовки документов, который особенно полезен в учебной, научной и технической деятельности. Его основное достоинство заключается в том, что он позволяет создавать структурированные, аккуратно оформленные и профессионально выглядящие документы.
+
+Несмотря на более высокий порог входа по сравнению с обычными текстовыми редакторами, LaTeX оправдывает себя при работе со сложными текстами, формулами, таблицами и большими документами. Именно поэтому он остаётся востребованным и широко используемым инструментом в современной образовательной и научной среде.

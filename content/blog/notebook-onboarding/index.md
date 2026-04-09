@@ -1,70 +1,66 @@
 ---
-title: ⚡️ Turn Jupyter Notebooks into Blog Posts
-summary: Publish your data science and research directly from Jupyter Notebooks. No screenshots required.
-date: 2024-07-15
+title: "📈 Итоги недели"
+summary: "Что сделал за неделю: сайт, проекты и выводы"
+date: 2026-04-04
 authors:
   - me
 tags:
-  - Hugo Blox
-  - Jupyter
-  - Open Science
-  - Tutorials
+  - Weekly
+  - Hugo
+  - Development
 cover:
-  # image: cover.jpg  # Auto-detected from cover image in this folder
   icon:
-    name: "📔"
+    name: "📊"
 image:
-  caption: "Image credit: [HugoBlox](https://hugoblox.com)"
+  caption: ""
   focal_point: Center
   placement: 1
 content_meta:
   trending: true
 ---
 
-As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.
+## Что сделал за неделю
 
-Hugo Blox changes that. With the `{{</* notebook */>}}` shortcode, you can render your actual `.ipynb` files directly as beautiful, interactive blog posts or project pages. Keep your code, outputs, and narrative in one place.
+На этой неделе сфокусировался на сборке и упаковке своего сайта.
 
-{{< toc mobile_only=true is_open=true >}}
+- Разобрался с Hugo и Hugo Blox
+- Поднял локальный сервер и настроил структуру
+- Заполнил основные разделы (Experience, Skills, Education)
+- Привёл профиль к более адекватному виду без фейковых достижений
 
-## Why publish notebooks?
+Параллельно:
+- Продолжил работать с Linux и терминалом
+- Закрывал задания по ОС
+- Тестировал идеи под проекты
 
-> [!TIP]
-> **Reproducible Research**: By publishing the actual notebook, you allow others to download and run your code, verifying your results and building upon your work.
+## Что понял
 
-- **No more screenshots** – Render crisp code and vector plots directly from your source.
-- **Theme consistent** – Notebooks automatically adapt to your site's theme (including dark mode).
-- **Flexible sourcing** – Display notebooks from your `assets/` folder, page bundles, or even directly from a remote GitHub URL.
-- **Interactive** – Users can copy code blocks or download the full notebook to run locally.
+Главное — делать быстро, а не идеально.
 
-## Example: Data Science Workflow
+Большая часть проблем решается не только знаниями, а ещё:
+- пробами
+- ошибками
+- быстрыми итерациями
 
-Below is a live example of a notebook rendered right here in this post. Notice how the markdown, code, and outputs (text, HTML, and JSON) are all preserved and styled.
+Также понял, что:
+- важно не просто учиться, а что-то собирать руками
+- сайт — это не просто страничка, а инструмент позиционирования
 
-{{< notebook
-    src="hugoblox-onboarding.ipynb"
-    title="Launch Readiness Analysis"
-    show_metadata=true
-    line_numbers=true
-    dense=false
-    download_label="Download notebook"
-    show_outputs=true
->}}
+## Ошибки
 
-## How to add a notebook
+- Сначала пытался сделать идеально красиво
+- Оставил в шаблоне фейковый опыт
+- Потратил лишнее время на неважные детали
 
-1. **Save your notebook.** Place your `.ipynb` file in `assets/notebooks/` (for global access) or inside a page bundle (like `content/blog/my-post/analysis.ipynb`).
-2. **Add the shortcode.** In any Markdown page, simply use:
-   `{{</* notebook src="analysis.ipynb" */>}}`
-3. **Customize.** You can hide code cells for non-technical audiences (`show_code=false`) or just show the output (`show_outputs=true`).
+## План на следующую неделю
 
-> [!IMPORTANT]
-> Hugo Blox respects your privacy. Notebook rendering happens statically at build time—no third-party services required.
+- Нормально оформить Projects
+- Добавить реальные кейсы
+- Начать использовать сайт для выхода на клиентов и возможностей
+- Улучшить дизайн
 
-## Next steps
+## Итог
 
-- **Try it out:** Drop one of your existing notebooks into this site and see how it looks.
-- **Link your papers:** Use the Embed shortcode to link your notebook to your latest arXiv preprint or GitHub repository.
-- **Get help:** Join the community on [Discord](https://discord.gg/z8wNYzb) or check the [documentation](https://docs.hugoblox.com).
+Неделя была не столько про результат, сколько про фундамент.
 
-Happy researching! 🚀
+Собрал базу, на которой уже можно строить дальше.
