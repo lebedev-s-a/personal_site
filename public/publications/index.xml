@@ -2,187 +2,100 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | </title>
-    <link>http://localhost:1313/personal_site/publications/</link>
-      <atom:link href="http://localhost:1313/personal_site/publications/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lebedev-s-a.github.io/personal_site/publications/</link>
+      <atom:link href="https://lebedev-s-a.github.io/personal_site/publications/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/personal_site/media/icon_hu_da05098ef60dc2e7.png</url>
+      <url>https://lebedev-s-a.github.io/personal_site/media/icon_hu_da05098ef60dc2e7.png</url>
       <title>Publications</title>
-      <link>http://localhost:1313/personal_site/publications/</link>
+      <link>https://lebedev-s-a.github.io/personal_site/publications/</link>
     </image>
     
     <item>
-      <title>An example preprint / working paper</title>
-      <link>http://localhost:1313/personal_site/publications/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/personal_site/publications/preprint/</guid>
-      <description>&lt;p&gt;This work is driven by the results in my 
- on LLMs.&lt;/p&gt;
+      <title>📈 Итоги недели</title>
+      <link>https://lebedev-s-a.github.io/personal_site/publications/conference-paper/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://lebedev-s-a.github.io/personal_site/publications/conference-paper/</guid>
+      <description>&lt;p&gt;На этой неделе я сфокусировался на освоении инструментов командной строки и развитии своего личного сайта.&lt;/p&gt;
+&lt;h3 id=&#34;лабораторная-работа-9-текстовый-редактор-emacs&#34;&gt;Лабораторная работа №9: Текстовый редактор Emacs&lt;/h3&gt;
+&lt;p&gt;В рамках учебного курса я изучил основы работы в редакторе &lt;strong&gt;Emacs&lt;/strong&gt;. Основные достижения:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Освоил базу&lt;/strong&gt;: изучил основные понятия (буферы, фреймы, окна) и навигацию с помощью префиксных клавиш &lt;code&gt;Ctrl&lt;/code&gt; и &lt;code&gt;Meta&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Практические навыки&lt;/strong&gt;: научился создавать и редактировать файлы (на примере &lt;code&gt;lab07.sh&lt;/code&gt;), выполнять поиск и замену текста, а также управлять окнами внутри фрейма.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Работа с интерфейсом&lt;/strong&gt;: научился разделять экран на несколько частей для одновременной работы с разными буферами.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;индивидуальный-проект&#34;&gt;Индивидуальный проект&lt;/h3&gt;
+&lt;p&gt;Параллельно я занимался обновлением своего сайта и интеграцией научных ресурсов. Что было сделано:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Библиографические ссылки&lt;/strong&gt;: добавил на сайт ссылки на свои профили в научных и профессиональных базах, включая &lt;strong&gt;eLibrary&lt;/strong&gt;, &lt;strong&gt;Google Scholar&lt;/strong&gt;, &lt;strong&gt;ORCID&lt;/strong&gt;, &lt;strong&gt;ResearchGate&lt;/strong&gt;, &lt;strong&gt;arXiv&lt;/strong&gt; и &lt;strong&gt;GitHub&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Контент&lt;/strong&gt;: подготовил отчетный пост за прошедшую неделю и обновил структуру сайта для лучшего отображения академической активности.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Язык разметки LaTeX</title>
+      <link>https://lebedev-s-a.github.io/personal_site/publications/preprint/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://lebedev-s-a.github.io/personal_site/publications/preprint/</guid>
+      <description>&lt;p&gt;LaTeX — это система подготовки документов, основанная на использовании текстовой разметки. В отличие от обычных текстовых редакторов, где оформление задаётся вручную через кнопки и панели инструментов, в LaTeX автор работает с исходным текстом и специальными командами, которые определяют структуру и внешний вид документа.&lt;/p&gt;
+&lt;h2 id=&#34;что-такое-latex&#34;&gt;Что такое LaTeX&lt;/h2&gt;
+&lt;p&gt;LaTeX был создан как надстройка над системой TeX и получил широкое распространение в научной, технической и академической среде. Основная идея LaTeX заключается в том, что автору не нужно постоянно думать о визуальном оформлении каждой строки. Вместо этого он задаёт логическую структуру документа: разделы, подразделы, формулы, таблицы, рисунки, ссылки и список литературы. После этого система автоматически формирует аккуратно оформленный документ.&lt;/p&gt;
+&lt;p&gt;Такой подход особенно удобен при подготовке курсовых работ, научных статей, дипломов, презентаций и отчётов.&lt;/p&gt;
+&lt;h2 id=&#34;особенности-языка-разметки-latex&#34;&gt;Особенности языка разметки LaTeX&lt;/h2&gt;
+&lt;p&gt;Одной из главных особенностей LaTeX является использование команд для оформления документа. Например, чтобы создать раздел, используется специальная команда, а для выделения математической формулы применяется другой синтаксис. Это делает документ более структурированным и удобным для дальнейшей обработки.&lt;/p&gt;
+&lt;p&gt;Пример простейшего документа на LaTeX:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
 
+\begin{document}
 
+\section{Введение}
+Это пример простого документа на LaTeX.
 
-  
-  
-  
-  
-  
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-
-
-&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500&#34; 
-     data-callout=&#34;note&#34; 
-     data-callout-metadata=&#34;&#34;&gt;
-  &lt;span class=&#34;callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300&#34;&gt;
-    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125&#34;/&gt;&lt;/svg&gt;
-  &lt;/span&gt;
-  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
-    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Note&lt;/div&gt;
-    &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/p&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including 
-.&lt;/p&gt;
+\end{document}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;В этом примере задаётся тип документа, подключается поддержка русской кодировки и языка, после чего начинается основная часть документа.&lt;/p&gt;
+&lt;h2 id=&#34;преимущества-latex&#34;&gt;Преимущества LaTeX&lt;/h2&gt;
+&lt;p&gt;Одним из самых важных преимуществ LaTeX является высокое качество оформления. Документы, созданные с его помощью, обычно выглядят более профессионально и аккуратно, чем тексты, подготовленные в обычных редакторах без строгих шаблонов.&lt;/p&gt;
+&lt;p&gt;Также LaTeX особенно ценится за удобную работу с математическими формулами. Например, даже сложные выражения можно записывать в структурированном и понятном виде. Это делает LaTeX практически стандартом в математике, физике, информатике и инженерных дисциплинах.&lt;/p&gt;
+&lt;p&gt;Кроме того, LaTeX хорошо подходит для больших документов. Если текст содержит множество разделов, таблиц, рисунков, перекрёстных ссылок и библиографических источников, система позволяет автоматизировать нумерацию, оформление содержания и список литературы.&lt;/p&gt;
+&lt;p&gt;К преимуществам LaTeX можно отнести:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;высокое качество итогового документа;&lt;/li&gt;
+&lt;li&gt;удобную работу с формулами;&lt;/li&gt;
+&lt;li&gt;автоматическую нумерацию разделов, рисунков и таблиц;&lt;/li&gt;
+&lt;li&gt;возможность оформления библиографии;&lt;/li&gt;
+&lt;li&gt;удобство при создании больших и сложных документов;&lt;/li&gt;
+&lt;li&gt;чёткое разделение содержания и оформления.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;недостатки-latex&#34;&gt;Недостатки LaTeX&lt;/h2&gt;
+&lt;p&gt;Несмотря на свои преимущества, LaTeX имеет и определённые сложности. Прежде всего, он требует изучения команд и структуры документа. Для новичка такой подход может показаться менее удобным, чем работа в привычном визуальном редакторе.&lt;/p&gt;
+&lt;p&gt;Также простые документы иногда быстрее сделать в обычных текстовых программах, если не требуется сложное оформление. Поэтому LaTeX особенно полезен там, где есть технические, научные или академические требования.&lt;/p&gt;
+&lt;h2 id=&#34;где-применяется-latex&#34;&gt;Где применяется LaTeX&lt;/h2&gt;
+&lt;p&gt;LaTeX широко используется в разных областях. Чаще всего его применяют:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;при написании научных статей;&lt;/li&gt;
+&lt;li&gt;при подготовке курсовых и дипломных работ;&lt;/li&gt;
+&lt;li&gt;при создании технической документации;&lt;/li&gt;
+&lt;li&gt;при оформлении презентаций;&lt;/li&gt;
+&lt;li&gt;при работе с математическими и физическими текстами;&lt;/li&gt;
+&lt;li&gt;при создании отчётов и учебных материалов.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Во многих университетах и научных сообществах LaTeX считается стандартным инструментом для подготовки серьёзных документов.&lt;/p&gt;
+&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
+&lt;p&gt;LaTeX является важным языком разметки и инструментом подготовки документов, который особенно полезен в учебной, научной и технической деятельности. Его основное достоинство заключается в том, что он позволяет создавать структурированные, аккуратно оформленные и профессионально выглядящие документы.&lt;/p&gt;
+&lt;p&gt;Несмотря на более высокий порог входа по сравнению с обычными текстовыми редакторами, LaTeX оправдывает себя при работе со сложными текстами, формулами, таблицами и большими документами. Именно поэтому он остаётся востребованным и широко используемым инструментом в современной образовательной и научной среде.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>An example journal article</title>
-      <link>http://localhost:1313/personal_site/publications/journal-article/</link>
+      <link>https://lebedev-s-a.github.io/personal_site/publications/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/personal_site/publications/journal-article/</guid>
-      <description>
-
-
-  
-  
-  
-  
-  
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-
-
-&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500&#34; 
-     data-callout=&#34;note&#34; 
-     data-callout-metadata=&#34;&#34;&gt;
-  &lt;span class=&#34;callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300&#34;&gt;
-    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125&#34;/&gt;&lt;/svg&gt;
-  &lt;/span&gt;
-  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
-    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Note&lt;/div&gt;
-    &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/p&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-
-
-  
-  
-  
-  
-  
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-
-
-&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500&#34; 
-     data-callout=&#34;note&#34; 
-     data-callout-metadata=&#34;&#34;&gt;
-  &lt;span class=&#34;callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300&#34;&gt;
-    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125&#34;/&gt;&lt;/svg&gt;
-  &lt;/span&gt;
-  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
-    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Note&lt;/div&gt;
-    &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/p&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including 
-.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example conference paper</title>
-      <link>http://localhost:1313/personal_site/publications/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/personal_site/publications/conference-paper/</guid>
+      <guid>https://lebedev-s-a.github.io/personal_site/publications/journal-article/</guid>
       <description>
 
 

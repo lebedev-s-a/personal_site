@@ -1,90 +1,46 @@
 ---
-title: 'An example conference paper'
-
-# Authors
-# If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
-# and it will be replaced with their full name and linked to their profile.
+title: 📈 Итоги недели
+summary: Итоги прошедшей недели (Лабораторная работа №9 и индивидуальный проект)
+date: 2026-04-28
 authors:
   - me
-  - Robert Ford
-
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-
-date: '2013-07-01T00:00:00Z'
-
-# Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
-
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
-
-# Publication name and optional abbreviated publication name.
-publication: In *HugoBlox Kit Conference*
-publication_short: In *ICW*
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
 tags:
-  - Large Language Models
+  - Hugo
+  - Hugo Blox
+  - Markdown
+  - Emacs
+  - Academic
 
-# Display this page in the Featured widget?
 featured: true
 
-# Standard identifiers for auto-linking
-hugoblox:
-  ids:
-    doi: 10.5555/123456
-
-# Custom links
-links:
-  - type: pdf
-    url: ""
-  - type: code
-    url: https://github.com/HugoBlox/kit
-  - type: dataset
-    url: https://github.com/HugoBlox/kit
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: https://github.com/HugoBlox/kit
-  - type: video
-    url: https://youtube.com
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
+cover:
+  image: "https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2560"
+  position:
+    x: 50
+    y: 40
+  overlay:
+    enabled: true
+    type: "gradient"
+    opacity: 0.4
+    gradient: "bottom"
+  fade:
+    enabled: true
+    height: "80px"
+  icon:
+    name: "✨"
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-  - example
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: ""
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-> [!NOTE]
-> Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+На этой неделе я сфокусировался на освоении инструментов командной строки и развитии своего личного сайта.
 
-> [!NOTE]
-> Create your slides in Markdown - click the _Slides_ button to check out the example.
+### Лабораторная работа №9: Текстовый редактор Emacs
+В рамках учебного курса я изучил основы работы в редакторе **Emacs**. Основные достижения:
+* **Освоил базу**: изучил основные понятия (буферы, фреймы, окна) и навигацию с помощью префиксных клавиш `Ctrl` и `Meta`
+* **Практические навыки**: научился создавать и редактировать файлы (на примере `lab07.sh`), выполнять поиск и замену текста, а также управлять окнами внутри фрейма.
+* **Работа с интерфейсом**: научился разделять экран на несколько частей для одновременной работы с разными буферами.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+### Индивидуальный проект
+Параллельно я занимался обновлением своего сайта и интеграцией научных ресурсов. Что было сделано:
+* **Библиографические ссылки**: добавил на сайт ссылки на свои профили в научных и профессиональных базах, включая **eLibrary**, **Google Scholar**, **ORCID**, **ResearchGate**, **arXiv** и **GitHub**.
+* **Контент**: подготовил отчетный пост за прошедшую неделю и обновил структуру сайта для лучшего отображения академической активности.

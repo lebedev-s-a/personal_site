@@ -2,21 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic | </title>
-    <link>http://localhost:1313/personal_site/tags/academic/</link>
-      <atom:link href="http://localhost:1313/personal_site/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lebedev-s-a.github.io/personal_site/tags/academic/</link>
+      <atom:link href="https://lebedev-s-a.github.io/personal_site/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/personal_site/media/icon_hu_da05098ef60dc2e7.png</url>
+      <url>https://lebedev-s-a.github.io/personal_site/media/icon_hu_da05098ef60dc2e7.png</url>
       <title>Academic</title>
-      <link>http://localhost:1313/personal_site/tags/academic/</link>
+      <link>https://lebedev-s-a.github.io/personal_site/tags/academic/</link>
     </image>
     
     <item>
+      <title>📈 Итоги недели</title>
+      <link>https://lebedev-s-a.github.io/personal_site/publications/conference-paper/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://lebedev-s-a.github.io/personal_site/publications/conference-paper/</guid>
+      <description>&lt;p&gt;На этой неделе я сфокусировался на освоении инструментов командной строки и развитии своего личного сайта.&lt;/p&gt;
+&lt;h3 id=&#34;лабораторная-работа-9-текстовый-редактор-emacs&#34;&gt;Лабораторная работа №9: Текстовый редактор Emacs&lt;/h3&gt;
+&lt;p&gt;В рамках учебного курса я изучил основы работы в редакторе &lt;strong&gt;Emacs&lt;/strong&gt;. Основные достижения:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Освоил базу&lt;/strong&gt;: изучил основные понятия (буферы, фреймы, окна) и навигацию с помощью префиксных клавиш &lt;code&gt;Ctrl&lt;/code&gt; и &lt;code&gt;Meta&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Практические навыки&lt;/strong&gt;: научился создавать и редактировать файлы (на примере &lt;code&gt;lab07.sh&lt;/code&gt;), выполнять поиск и замену текста, а также управлять окнами внутри фрейма.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Работа с интерфейсом&lt;/strong&gt;: научился разделять экран на несколько частей для одновременной работы с разными буферами.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;индивидуальный-проект&#34;&gt;Индивидуальный проект&lt;/h3&gt;
+&lt;p&gt;Параллельно я занимался обновлением своего сайта и интеграцией научных ресурсов. Что было сделано:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Библиографические ссылки&lt;/strong&gt;: добавил на сайт ссылки на свои профили в научных и профессиональных базах, включая &lt;strong&gt;eLibrary&lt;/strong&gt;, &lt;strong&gt;Google Scholar&lt;/strong&gt;, &lt;strong&gt;ORCID&lt;/strong&gt;, &lt;strong&gt;ResearchGate&lt;/strong&gt;, &lt;strong&gt;arXiv&lt;/strong&gt; и &lt;strong&gt;GitHub&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Контент&lt;/strong&gt;: подготовил отчетный пост за прошедшую неделю и обновил структуру сайта для лучшего отображения академической активности.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Create Beautiful Presentations with Markdown</title>
-      <link>http://localhost:1313/personal_site/events/example/</link>
+      <link>https://lebedev-s-a.github.io/personal_site/events/example/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/personal_site/events/example/</guid>
+      <guid>https://lebedev-s-a.github.io/personal_site/events/example/</guid>
       <description>&lt;h2 id=&#34;-why-markdown-slides&#34;&gt;🎯 Why Markdown Slides?&lt;/h2&gt;
 
 
@@ -501,7 +523,7 @@ Navigate down for sub-topics!&lt;/p&gt;
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-7519dfcc27cf03dd985a63a0b9a6155b&#34;
-    href=&#34;http://localhost:1313/personal_site/slides/example/&#34;
+    href=&#34;https://lebedev-s-a.github.io/personal_site/slides/example/&#34;
     target=&#34;_blank&#34;
     rel=&#34;noopener&#34;
     

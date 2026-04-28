@@ -1,16 +1,19 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+title: 📚 Работа с библиографией в академических текстах
+summary: Как правильно оформлять источники, ссылки и списки литературы в научных и учебных работах.
+date: 2025-04-28
 authors:
   - me
 tags:
-  - Second Brain
-  - Markdown
+  - Библиография
+  - Академическое письмо
+  - Оформление
+
+
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 cover:
-  image: "https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2560"
+  image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=2560"
   position:
     x: 50
     y: 40
@@ -23,118 +26,84 @@ cover:
     enabled: true
     height: "80px"
   icon:
-    name: "✨"
+    name: "📖"
 ---
 
-Create a personal knowledge base and share your knowledge with your peers.
+Библиография — это не просто список литературы в конце работы. Это инструмент, который показывает, насколько глубоко автор погрузился в тему, и позволяет читателю проверить источники самостоятельно.
 
-Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.
+## Что такое библиография и зачем она нужна
 
-Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.
+Библиография — это упорядоченный перечень всех источников, которые были использованы при написании научной или учебной работы. Она выполняет сразу несколько функций:
 
-Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.
+- **Подтверждает достоверность** — читатель может проверить каждый факт
+- **Защищает от плагиата** — все заимствования явно указаны
+- **Показывает глубину исследования** — видно, с каким объёмом материала работал автор
+- **Помогает другим исследователям** — найти связанные источники по теме
 
-## Mindmaps
+## Основные стили оформления
 
-Hugo Blox supports a Markdown extension for mindmaps.
+В академической среде существует несколько стандартов оформления библиографии. Выбор зависит от дисциплины и требований учебного заведения.
 
-With this open format, can even edit your mindmaps in other popular tools such as Obsidian.
+### ГОСТ Р 7.0.5-2008
 
-Simply insert a Markdown code block labelled as `markmap` and optionally set the height of the mindmap as shown in the example below.
+Российский стандарт, обязательный для большинства вузов страны. Пример оформления книги:
 
-Mindmaps can be created by simply writing the items as a Markdown list within the `markmap` code block, indenting each item to create as many sub-levels as you need:
-
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - netlify
-  - netlify-cms
-  - slides
 ```
-</code>
-</pre>
-</div>
-
-renders as
-
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - netlify
-  - netlify-cms
-  - slides
+Иванов, А. В. Основы научных исследований / А. В. Иванов. — Москва : Наука, 2020. — 320 с.
 ```
 
-Anh here's a more advanced mindmap with formatting, code blocks, and math:
+### APA (American Psychological Association)
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/kit)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+Используется в психологии, социологии, образовании:
+
 ```
-</code>
-</pre>
-</div>
-
-renders as
-
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/kit)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+Ivanov, A. V. (2020). Foundations of scientific research. Nauka.
 ```
 
-## Highlighting
+### MLA (Modern Language Association)
 
-<mark>Highlight</mark> important text with `mark`:
+Популярен в гуманитарных науках:
 
-```html
-<mark>Highlighted text</mark>
+```
+Ivanov, Alexei V. Foundations of Scientific Research. Nauka, 2020.
 ```
 
-## Callouts
-
-Use [callouts](https://docs.hugoblox.com/reference/markdown/#callouts) (aka _asides_, _hints_, or _alerts_) to draw attention to notes, tips, and warnings.
-
-Use the `> [!NOTE]` syntax to create a callout.
-
-```markdown
-> [!NOTE]
-> A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-```
-
-renders as
+## Виды источников и их оформление
 
 > [!NOTE]
-> A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+> Разные типы источников оформляются по-разному. Важно не перепутать схему для книги, статьи и интернет-ресурса.
 
-Or use the `warning` callout type so your readers don't miss critical details:
+**Книга (монография):**
+Автор, инициалы. *Название*. — Город : Издательство, год. — Количество страниц.
+
+**Статья в журнале:**
+Автор, инициалы. Название статьи // Название журнала. — год. — Том, № номер. — С. страницы.
+
+**Интернет-ресурс:**
+Автор. Название материала [Электронный ресурс]. — URL: адрес (дата обращения: дд.мм.гггг).
+
+## Инструменты для управления источниками
+
+Работать с большим количеством источников вручную — неудобно. Существуют специальные программы-менеджеры библиографии:
+
+| Инструмент | Бесплатно | Особенности |
+|------------|-----------|-------------|
+| **Zotero** | ✅ | Лучший выбор для большинства задач, плагин для браузера |
+| **Mendeley** | ✅ | Удобен для PDF и совместной работы |
+| **EndNote** | ❌ | Профессиональный инструмент для серьёзных исследований |
+| **CiteMachine** | ✅ | Онлайн-генератор ссылок, быстро и просто |
+
+## Частые ошибки
 
 > [!WARNING]
-> A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+> Эти ошибки встречаются в большинстве студенческих работ — лучше проверить заранее.
 
-## Did you find this page helpful? Consider sharing it 🙌
+1. **Источник есть в тексте, но нет в списке** — или наоборот
+2. **Непоследовательный стиль** — часть источников по ГОСТу, часть по APA
+3. **Нет даты обращения** для интернет-ресурсов
+4. **Неверный порядок** — по ГОСТу список должен быть в алфавитном порядке
+5. **Устаревшие источники** без необходимости — лучше использовать издания последних 5–10 лет
+
+## Итог
+
+Грамотно оформленная библиография — это признак уважения к читателю и к науке в целом. Потратьте немного времени на изучение нужного стандарта, используйте менеджеры источников и проверяйте список перед сдачей работы.

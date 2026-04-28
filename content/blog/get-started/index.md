@@ -29,6 +29,8 @@ tags:
   - Git
   - Version Control
   - Development
+  
+featured: true
 
 content_meta:
   trending: true

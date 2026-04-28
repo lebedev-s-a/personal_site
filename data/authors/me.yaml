@@ -23,19 +23,31 @@ affiliations:
     url: https://rudn.ru
 
 links:
+
   - icon: brands/github
     url: https://github.com/lebedev-s-a
-  - icon: brands/linkedin
-    url: https://www.linkedin.com
-  - icon: at-symbol
-    url: mailto:your@email.com
-    label: E-mail
+    label: GitHub
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?hl=en&authuser=1&user=DfIffo0AAAAJ
+    label: Google Scholar
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0009-0223-2239
+    label: ORCID
+  - icon: academicons/mendeley
+    url: https://www.mendeley.com/reference-manager/library/my-publications/
+    label: Mendeley
+  - icon: academicons/academia
+    url: https://rudn.academia.edu/SergeyLebedev
+    label: Academia.edu
+  - icon: academicons/elibrary
+    url: https://elibrary.ru/project_author_tools.asp
+    label: eLibrary
 
 interests:
-  - Разработка MVP и стартапов
+  - Разработка приложений
   - Автоматизация и AI-инструменты
   - Веб-разработка
-  - Системное мышление
+  - Иностранные языки
 
 education:
   - degree: Бакалавриат, Компьютерные науки
@@ -95,12 +107,12 @@ languages:
   - name: German
     level: 2
     label: A2
+  - name: Spanish
+    level: 1
+    label: A1
 
 awards:
   - title: Built Multiple MVP Projects
     date: "2025-01-01"
     summary: Разработка и запуск нескольких MVP-продуктов
 
-  - title: Content with Millions of Views
-    date: "2024-01-01"
-    summary: Создание контента с суммарно миллионами просмотров
