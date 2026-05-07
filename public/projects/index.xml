@@ -13,19 +13,75 @@
     </image>
     
     <item>
-      <title>Pandas</title>
+      <title>Курс «Введение в Linux» на Stepik</title>
       <link>https://lebedev-s-a.github.io/personal_site/projects/pandas/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
       <guid>https://lebedev-s-a.github.io/personal_site/projects/pandas/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Прошёл курс «Введение в Linux» на платформе Stepik с результатом &lt;strong&gt;125 из 125 баллов&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Ссылка на сертификат: 
+&lt;/p&gt;
+&lt;h2 id=&#34;о-курсе&#34;&gt;О курсе&lt;/h2&gt;
+&lt;p&gt;Курс «Введение в Linux» на Stepik охватывает широкий круг тем: от самых базовых вещей вроде установки системы и работы с терминалом до продвинутых тем - написания скриптов на bash, работы с удалённым сервером и построения графиков. Курс разбит на три большие части, каждую из которых нужно было пройти последовательно.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;certificate.png&#34; alt=&#34;Сертификат о прохождении курса&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;часть-1-основы-работы-с-linux&#34;&gt;Часть 1. Основы работы с Linux&lt;/h2&gt;
+&lt;p&gt;В первой части разобрал фундаментальные вещи, с которыми сталкиваешься при работе в Linux каждый день.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Файловая система и навигация.&lt;/strong&gt; Разобрал структуру каталогов, научился уверенно перемещаться по файловой системе командами &lt;code&gt;pwd&lt;/code&gt;, &lt;code&gt;cd&lt;/code&gt;, &lt;code&gt;ls&lt;/code&gt; с разными флагами. Понял разницу между абсолютными и относительными путями.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Работа с файлами.&lt;/strong&gt; Детально разобрал команды &lt;code&gt;cp&lt;/code&gt;, &lt;code&gt;mv&lt;/code&gt;, &lt;code&gt;rm&lt;/code&gt;, &lt;code&gt;mkdir&lt;/code&gt; - и не только базовое использование, но и нюансы: например, что &lt;code&gt;rm&lt;/code&gt; без флагов не удаляет директории, а &lt;code&gt;cp -r&lt;/code&gt; нужен для рекурсивного копирования.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Терминал и процессы.&lt;/strong&gt; Разобрал управление процессами через &lt;code&gt;jobs&lt;/code&gt;, &lt;code&gt;fg&lt;/code&gt;, &lt;code&gt;bg&lt;/code&gt;, &lt;code&gt;kill&lt;/code&gt;. Понял разницу между SIGTERM и SIGKILL, научился отправлять процессы в фоновый режим через &lt;code&gt;Ctrl+Z&lt;/code&gt; и &lt;code&gt;bg&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Перенаправление ввода/вывода.&lt;/strong&gt; Детально разобрал потоки &lt;code&gt;stdout&lt;/code&gt; и &lt;code&gt;stderr&lt;/code&gt;, операторы &lt;code&gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;2&amp;gt;&lt;/code&gt;, &lt;code&gt;2&amp;gt;&amp;gt;&lt;/code&gt;. Понял, почему &lt;code&gt;stderr&lt;/code&gt; не попадает в файл при обычном перенаправлении.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Загрузка файлов и архивы.&lt;/strong&gt; Разобрал &lt;code&gt;wget&lt;/code&gt; с опциями &lt;code&gt;-q&lt;/code&gt;, &lt;code&gt;-nv&lt;/code&gt;, работу с архивами через &lt;code&gt;gzip&lt;/code&gt;, &lt;code&gt;zip&lt;/code&gt; и &lt;code&gt;tar&lt;/code&gt;. Понял разницу между ними: &lt;code&gt;gzip&lt;/code&gt; удаляет исходный файл, а &lt;code&gt;tar&lt;/code&gt; умеет работать с несколькими файлами сразу.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Поиск и grep.&lt;/strong&gt; Поработал с масками (&lt;code&gt;*.jpg&lt;/code&gt;, &lt;code&gt;alexey.*&lt;/code&gt;) и командой &lt;code&gt;grep&lt;/code&gt; для поиска строк по шаблону.&lt;/p&gt;
+&lt;h2 id=&#34;часть-2-работа-с-удалённым-сервером&#34;&gt;Часть 2. Работа с удалённым сервером&lt;/h2&gt;
+&lt;p&gt;Вторая часть была посвящена работе с сервером по SSH - это оказалось очень практично.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SSH и ключи.&lt;/strong&gt; Разобрал принцип работы пары ключей &lt;code&gt;id_rsa&lt;/code&gt; и &lt;code&gt;id_rsa.pub&lt;/code&gt;. Понял, что публичный ключ можно передавать свободно, а приватный - никогда.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Обмен файлами.&lt;/strong&gt; Детально разобрал команду &lt;code&gt;scp&lt;/code&gt; с флагом &lt;code&gt;-r&lt;/code&gt; для рекурсивного копирования директорий. Также поработал с графическим клиентом FileZilla.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Запуск приложений.&lt;/strong&gt; Разобрал запуск биоинформатических программ в терминале: &lt;strong&gt;FastQC&lt;/strong&gt; для контроля качества последовательностей и &lt;strong&gt;ClustalW&lt;/strong&gt; для множественного выравнивания. Научился читать справку через &lt;code&gt;man&lt;/code&gt; и &lt;code&gt;--help&lt;/code&gt; и находить нужные опции.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Многопоточность.&lt;/strong&gt; Запустил программу &lt;strong&gt;bowtie2&lt;/strong&gt; для выравнивания геномных ридов. Разобрал разницу между &lt;code&gt;bowtie2-build&lt;/code&gt; (не поддерживает многопоточность) и &lt;code&gt;bowtie2&lt;/code&gt; (поддерживает опцию &lt;code&gt;-p&lt;/code&gt;). Результат выравнивания составил 100% при 306174 ридах.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;tmux.&lt;/strong&gt; Детально разобрал менеджер терминалов &lt;code&gt;tmux&lt;/code&gt;: создание и закрытие вкладок, разделение экрана горизонтально (&lt;code&gt;Ctrl+B, &amp;quot;&lt;/code&gt;) и вертикально (&lt;code&gt;Ctrl+B, %&lt;/code&gt;), переименование вкладок (&lt;code&gt;Ctrl+B, ,&lt;/code&gt;). Главное, что понял - при разрыве SSH-соединения сессия tmux на сервере продолжает работать.&lt;/p&gt;
+&lt;h2 id=&#34;часть-3-продвинутые-темы&#34;&gt;Часть 3. Продвинутые темы&lt;/h2&gt;
+&lt;p&gt;Третья часть оказалась самой насыщенной и интересной.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Редактор vim.&lt;/strong&gt; Детально разобрал три режима vim: нормальный, вставки и командной строки. Поработал с перемещением по &lt;code&gt;word&lt;/code&gt; (&lt;code&gt;w&lt;/code&gt;) и &lt;code&gt;WORD&lt;/code&gt; (&lt;code&gt;W&lt;/code&gt;), режимом выделения Visual (&lt;code&gt;v&lt;/code&gt;), командами удаления, копирования и вставки через буфер. Разобрал глобальную замену через &lt;code&gt;:%s/старое/новое/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Скрипты на bash.&lt;/strong&gt; Это оказалась самая объёмная тема. Разобрал:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Допустимые имена переменных и правила их объявления&lt;/li&gt;
+&lt;li&gt;Позиционные аргументы &lt;code&gt;$1&lt;/code&gt;, &lt;code&gt;$2&lt;/code&gt;, &lt;code&gt;$#&lt;/code&gt;, &lt;code&gt;$0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Условия через &lt;code&gt;if&lt;/code&gt;, &lt;code&gt;[ ]&lt;/code&gt;, &lt;code&gt;[[ ]]&lt;/code&gt; и конструкцию &lt;code&gt;case&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Циклы &lt;code&gt;while&lt;/code&gt; и &lt;code&gt;for&lt;/code&gt;, команды &lt;code&gt;continue&lt;/code&gt; и &lt;code&gt;break&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Функции, локальные переменные, рекурсию&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Из практических заданий реализовал &lt;strong&gt;рекурсивный вычислитель НОД&lt;/strong&gt; по алгоритму Евклида и &lt;strong&gt;калькулятор&lt;/strong&gt;, принимающий два числа и оператор через stdin.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Продвинутый поиск.&lt;/strong&gt; Детально разобрал &lt;code&gt;find&lt;/code&gt; с опциями &lt;code&gt;-iname&lt;/code&gt; (без учёта регистра), &lt;code&gt;-mindepth&lt;/code&gt;, &lt;code&gt;-maxdepth&lt;/code&gt;, &lt;code&gt;-path&lt;/code&gt;. Поработал с &lt;code&gt;grep -E&lt;/code&gt; и регулярными выражениями. Разобрал &lt;code&gt;sed&lt;/code&gt;: разницу между работой с опцией &lt;code&gt;-n&lt;/code&gt; и без неё, команды замены с флагом &lt;code&gt;g&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;gnuplot.&lt;/strong&gt; Разобрал построение и настройку 2D и 3D графиков. Детально разобрал опцию &lt;code&gt;--persist&lt;/code&gt;, подписи осей через конкатенацию строк, команду &lt;code&gt;set key autotitle columnhead&lt;/code&gt;. Реализовал модификацию скрипта анимации &lt;code&gt;move.rot&lt;/code&gt;: зеркальное отражение графика, вращение в обратную сторону и в два раза быстрее.&lt;/p&gt;
+&lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
+&lt;p&gt;Курс пройден полностью с результатом &lt;strong&gt;125 из 125 баллов&lt;/strong&gt; и прогрессом &lt;strong&gt;125/125 шагов&lt;/strong&gt;. Материал хорошо структурирован и постепенно усложняется. Особенно полезными оказались практические задания с проверкой через stdin/stdout - они заставляют думать не только о логике, но и о краевых случаях.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>PyTorch</title>
+      <title></title>
       <link>https://lebedev-s-a.github.io/personal_site/projects/pytorch/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://lebedev-s-a.github.io/personal_site/projects/pytorch/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
+      <description></description>
     </item>
     
     <item>
