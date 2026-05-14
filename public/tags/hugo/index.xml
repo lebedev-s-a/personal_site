@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo | </title>
+    <title>Hugo | Sergei Lebedev</title>
     <link>https://lebedev-s-a.github.io/personal_site/tags/hugo/</link>
       <atom:link href="https://lebedev-s-a.github.io/personal_site/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <description>Hugo</description>
@@ -180,22 +180,6 @@
     </item>
     
     <item>
-      <title>Результаты прошлой недели</title>
-      <link>https://lebedev-s-a.github.io/personal_site/blog/teach-courses/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/blog/teach-courses/</guid>
-      <description>&lt;p&gt;На прошлой неделе была выполнена лабораторная работа №13 — программирование в командном процессоре ОС UNIX: ветвления и циклы.&lt;/p&gt;
-&lt;h2 id=&#34;что-было-сделано&#34;&gt;Что было сделано&lt;/h2&gt;
-&lt;p&gt;Основная тема недели — написание сложных командных файлов (shell-скриптов) с использованием логических управляющих конструкций и циклов. Работа включала четыре самостоятельных задания.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 1.&lt;/strong&gt; Написан командный файл с использованием &lt;code&gt;getopts&lt;/code&gt; и &lt;code&gt;grep&lt;/code&gt;. Скрипт анализирует аргументы командной строки: ключ &lt;code&gt;-i&lt;/code&gt; задаёт входной файл, &lt;code&gt;-o&lt;/code&gt; — выходной, &lt;code&gt;-p&lt;/code&gt; — шаблон для поиска, &lt;code&gt;-C&lt;/code&gt; включает чувствительность к регистру, &lt;code&gt;-n&lt;/code&gt; выводит номера строк. После разбора ключей скрипт выполняет поиск по файлу с помощью &lt;code&gt;grep&lt;/code&gt; и записывает результат в указанный файл вывода.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 2.&lt;/strong&gt; На языке Си написана программа, которая читает число, определяет его знак и завершается через &lt;code&gt;exit(n)&lt;/code&gt;, передавая код завершения в оболочку. Командный файл вызывает эту программу и с помощью переменной &lt;code&gt;$?&lt;/code&gt; анализирует код завершения, выводя соответствующее сообщение: число больше нуля, меньше нуля или равно нулю.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 3.&lt;/strong&gt; Написан командный файл, создающий заданное количество пронумерованных временных файлов (&lt;code&gt;1.tmp&lt;/code&gt;, &lt;code&gt;2.tmp&lt;/code&gt;, &amp;hellip;, &lt;code&gt;N.tmp&lt;/code&gt;). Число файлов передаётся аргументом командной строки. Тот же скрипт при передаче соответствующего ключа удаляет все созданные файлы, если они существуют.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 4.&lt;/strong&gt; Написан командный файл, упаковывающий содержимое указанной директории в архив с помощью &lt;code&gt;tar&lt;/code&gt;. Скрипт доработан так, чтобы в архив попадали только файлы, изменённые менее недели назад — для фильтрации использована команда &lt;code&gt;find&lt;/code&gt; с параметром &lt;code&gt;-mtime&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
-&lt;p&gt;Неделя была посвящена практическому освоению управляющих конструкций Bash: &lt;code&gt;if&lt;/code&gt;/&lt;code&gt;else&lt;/code&gt;, циклов &lt;code&gt;while&lt;/code&gt; и &lt;code&gt;for&lt;/code&gt;, команды &lt;code&gt;getopts&lt;/code&gt; для разбора аргументов, а также взаимодействию командной оболочки с программами на Си через коды завершения. Все четыре задания выполнены и оформлены в виде отчёта с листингами и скриншотами.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>📈 Итоги недели</title>
       <link>https://lebedev-s-a.github.io/personal_site/publications/conference-paper/</link>
       <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
@@ -214,67 +198,6 @@
 &lt;li&gt;&lt;strong&gt;Библиографические ссылки&lt;/strong&gt;: добавил на сайт ссылки на свои профили в научных и профессиональных базах, включая &lt;strong&gt;eLibrary&lt;/strong&gt;, &lt;strong&gt;Google Scholar&lt;/strong&gt;, &lt;strong&gt;ORCID&lt;/strong&gt;, &lt;strong&gt;ResearchGate&lt;/strong&gt;, &lt;strong&gt;arXiv&lt;/strong&gt; и &lt;strong&gt;GitHub&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Контент&lt;/strong&gt;: подготовил отчетный пост за прошедшую неделю и обновил структуру сайта для лучшего отображения академической активности.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>📈 Итоги недели</title>
-      <link>https://lebedev-s-a.github.io/personal_site/blog/notebook-onboarding/</link>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/blog/notebook-onboarding/</guid>
-      <description>&lt;h2 id=&#34;что-сделал-за-неделю&#34;&gt;Что сделал за неделю&lt;/h2&gt;
-&lt;p&gt;На этой неделе сфокусировался на сборке и упаковке своего сайта.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Разобрался с Hugo и Hugo Blox&lt;/li&gt;
-&lt;li&gt;Поднял локальный сервер и настроил структуру&lt;/li&gt;
-&lt;li&gt;Заполнил основные разделы (Experience, Skills, Education)&lt;/li&gt;
-&lt;li&gt;Привёл профиль к более адекватному виду без фейковых достижений&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Параллельно:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Продолжил работать с Linux и терминалом&lt;/li&gt;
-&lt;li&gt;Закрывал задания по ОС&lt;/li&gt;
-&lt;li&gt;Тестировал идеи под проекты&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;что-понял&#34;&gt;Что понял&lt;/h2&gt;
-&lt;p&gt;Главное — делать быстро, а не идеально.&lt;/p&gt;
-&lt;p&gt;Большая часть проблем решается не только знаниями, а ещё:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;пробами&lt;/li&gt;
-&lt;li&gt;ошибками&lt;/li&gt;
-&lt;li&gt;быстрыми итерациями&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Также понял, что:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;важно не просто учиться, а что-то собирать руками&lt;/li&gt;
-&lt;li&gt;сайт — это не просто страничка, а инструмент позиционирования&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;ошибки&#34;&gt;Ошибки&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Сначала пытался сделать идеально красиво&lt;/li&gt;
-&lt;li&gt;Оставил в шаблоне фейковый опыт&lt;/li&gt;
-&lt;li&gt;Потратил лишнее время на неважные детали&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;план-на-следующую-неделю&#34;&gt;План на следующую неделю&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Нормально оформить Projects&lt;/li&gt;
-&lt;li&gt;Добавить реальные кейсы&lt;/li&gt;
-&lt;li&gt;Начать использовать сайт для выхода на клиентов и возможностей&lt;/li&gt;
-&lt;li&gt;Улучшить дизайн&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
-&lt;p&gt;Неделя была не столько про результат, сколько про фундамент.&lt;/p&gt;
-&lt;p&gt;Собрал базу, на которой уже можно строить дальше.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>📈 Итоги недели</title>
-      <link>https://lebedev-s-a.github.io/personal_site/blog/data-visualization/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/blog/data-visualization/</guid>
-      <description>&lt;p&gt;На этой неделе я продолжил работу над лабораторными заданиями по операционным системам и изучал основы работы в Unix-подобных системах.&lt;/p&gt;
-&lt;p&gt;Также занимался настройкой окружения и выполнением практических заданий, связанных с командной строкой и файловой системой. Полученные знания помогают лучше понимать принципы работы операционных систем и взаимодействия с ними.&lt;/p&gt;
 </description>
     </item>
     

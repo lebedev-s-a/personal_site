@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Markdown | </title>
+    <title>Markdown | Sergei Lebedev</title>
     <link>https://lebedev-s-a.github.io/personal_site/tags/markdown/</link>
       <atom:link href="https://lebedev-s-a.github.io/personal_site/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <description>Markdown</description>
@@ -180,22 +180,6 @@
     </item>
     
     <item>
-      <title>Результаты прошлой недели</title>
-      <link>https://lebedev-s-a.github.io/personal_site/blog/teach-courses/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/blog/teach-courses/</guid>
-      <description>&lt;p&gt;На прошлой неделе была выполнена лабораторная работа №13 — программирование в командном процессоре ОС UNIX: ветвления и циклы.&lt;/p&gt;
-&lt;h2 id=&#34;что-было-сделано&#34;&gt;Что было сделано&lt;/h2&gt;
-&lt;p&gt;Основная тема недели — написание сложных командных файлов (shell-скриптов) с использованием логических управляющих конструкций и циклов. Работа включала четыре самостоятельных задания.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 1.&lt;/strong&gt; Написан командный файл с использованием &lt;code&gt;getopts&lt;/code&gt; и &lt;code&gt;grep&lt;/code&gt;. Скрипт анализирует аргументы командной строки: ключ &lt;code&gt;-i&lt;/code&gt; задаёт входной файл, &lt;code&gt;-o&lt;/code&gt; — выходной, &lt;code&gt;-p&lt;/code&gt; — шаблон для поиска, &lt;code&gt;-C&lt;/code&gt; включает чувствительность к регистру, &lt;code&gt;-n&lt;/code&gt; выводит номера строк. После разбора ключей скрипт выполняет поиск по файлу с помощью &lt;code&gt;grep&lt;/code&gt; и записывает результат в указанный файл вывода.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 2.&lt;/strong&gt; На языке Си написана программа, которая читает число, определяет его знак и завершается через &lt;code&gt;exit(n)&lt;/code&gt;, передавая код завершения в оболочку. Командный файл вызывает эту программу и с помощью переменной &lt;code&gt;$?&lt;/code&gt; анализирует код завершения, выводя соответствующее сообщение: число больше нуля, меньше нуля или равно нулю.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 3.&lt;/strong&gt; Написан командный файл, создающий заданное количество пронумерованных временных файлов (&lt;code&gt;1.tmp&lt;/code&gt;, &lt;code&gt;2.tmp&lt;/code&gt;, &amp;hellip;, &lt;code&gt;N.tmp&lt;/code&gt;). Число файлов передаётся аргументом командной строки. Тот же скрипт при передаче соответствующего ключа удаляет все созданные файлы, если они существуют.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 4.&lt;/strong&gt; Написан командный файл, упаковывающий содержимое указанной директории в архив с помощью &lt;code&gt;tar&lt;/code&gt;. Скрипт доработан так, чтобы в архив попадали только файлы, изменённые менее недели назад — для фильтрации использована команда &lt;code&gt;find&lt;/code&gt; с параметром &lt;code&gt;-mtime&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
-&lt;p&gt;Неделя была посвящена практическому освоению управляющих конструкций Bash: &lt;code&gt;if&lt;/code&gt;/&lt;code&gt;else&lt;/code&gt;, циклов &lt;code&gt;while&lt;/code&gt; и &lt;code&gt;for&lt;/code&gt;, команды &lt;code&gt;getopts&lt;/code&gt; для разбора аргументов, а также взаимодействию командной оболочки с программами на Си через коды завершения. Все четыре задания выполнены и оформлены в виде отчёта с листингами и скриншотами.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>📈 Итоги недели</title>
       <link>https://lebedev-s-a.github.io/personal_site/publications/conference-paper/</link>
       <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
@@ -214,91 +198,6 @@
 &lt;li&gt;&lt;strong&gt;Библиографические ссылки&lt;/strong&gt;: добавил на сайт ссылки на свои профили в научных и профессиональных базах, включая &lt;strong&gt;eLibrary&lt;/strong&gt;, &lt;strong&gt;Google Scholar&lt;/strong&gt;, &lt;strong&gt;ORCID&lt;/strong&gt;, &lt;strong&gt;ResearchGate&lt;/strong&gt;, &lt;strong&gt;arXiv&lt;/strong&gt; и &lt;strong&gt;GitHub&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Контент&lt;/strong&gt;: подготовил отчетный пост за прошедшую неделю и обновил структуру сайта для лучшего отображения академической активности.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>📈 Итоги недели</title>
-      <link>https://lebedev-s-a.github.io/personal_site/blog/data-visualization/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/blog/data-visualization/</guid>
-      <description>&lt;p&gt;На этой неделе я продолжил работу над лабораторными заданиями по операционным системам и изучал основы работы в Unix-подобных системах.&lt;/p&gt;
-&lt;p&gt;Также занимался настройкой окружения и выполнением практических заданий, связанных с командной строкой и файловой системой. Полученные знания помогают лучше понимать принципы работы операционных систем и взаимодействия с ними.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>✅ Manage your projects</title>
-      <link>https://lebedev-s-a.github.io/personal_site/blog/project-management/</link>
-      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/blog/project-management/</guid>
-      <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
-&lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
-&lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
-&lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
-&lt;p&gt;Mindmaps can be created by simply writing the items as a Markdown list within the &lt;code&gt;markmap&lt;/code&gt; code block, indenting each item to create as many sub-levels as you need:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;
-&lt;code&gt;
-```markmap {height=&#34;200px&#34;}
-- Hugo Modules
-  - Hugo Blox
-  - netlify
-  - netlify-cms
-  - slides
-```
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
-
-&lt;pre&gt;- Hugo Modules
-  - Hugo Blox
-  - netlify
-  - netlify-cms
-  - slides&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
-&lt;p&gt;Hugo Blox supports the &lt;em&gt;Mermaid&lt;/em&gt; Markdown extension for diagrams.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34;&gt;gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-&lt;/div&gt;
-&lt;h2 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h2&gt;
-&lt;p&gt;You can even write your todo lists in Markdown too:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write math example
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write diagram example
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Do something else
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
 </description>
     </item>
     

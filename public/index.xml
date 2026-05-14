@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>Sergei Lebedev</title>
     <link>https://lebedev-s-a.github.io/personal_site/</link>
       <atom:link href="https://lebedev-s-a.github.io/personal_site/index.xml" rel="self" type="application/rss+xml" />
-    <description></description>
+    <description>Sergei Lebedev</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lebedev-s-a.github.io/personal_site/featured.jpg</url>
-      <title></title>
+      <title>Sergei Lebedev</title>
       <link>https://lebedev-s-a.github.io/personal_site/</link>
     </image>
     
@@ -336,22 +336,6 @@
     </item>
     
     <item>
-      <title>Результаты прошлой недели</title>
-      <link>https://lebedev-s-a.github.io/personal_site/blog/teach-courses/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/blog/teach-courses/</guid>
-      <description>&lt;p&gt;На прошлой неделе была выполнена лабораторная работа №13 — программирование в командном процессоре ОС UNIX: ветвления и циклы.&lt;/p&gt;
-&lt;h2 id=&#34;что-было-сделано&#34;&gt;Что было сделано&lt;/h2&gt;
-&lt;p&gt;Основная тема недели — написание сложных командных файлов (shell-скриптов) с использованием логических управляющих конструкций и циклов. Работа включала четыре самостоятельных задания.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 1.&lt;/strong&gt; Написан командный файл с использованием &lt;code&gt;getopts&lt;/code&gt; и &lt;code&gt;grep&lt;/code&gt;. Скрипт анализирует аргументы командной строки: ключ &lt;code&gt;-i&lt;/code&gt; задаёт входной файл, &lt;code&gt;-o&lt;/code&gt; — выходной, &lt;code&gt;-p&lt;/code&gt; — шаблон для поиска, &lt;code&gt;-C&lt;/code&gt; включает чувствительность к регистру, &lt;code&gt;-n&lt;/code&gt; выводит номера строк. После разбора ключей скрипт выполняет поиск по файлу с помощью &lt;code&gt;grep&lt;/code&gt; и записывает результат в указанный файл вывода.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 2.&lt;/strong&gt; На языке Си написана программа, которая читает число, определяет его знак и завершается через &lt;code&gt;exit(n)&lt;/code&gt;, передавая код завершения в оболочку. Командный файл вызывает эту программу и с помощью переменной &lt;code&gt;$?&lt;/code&gt; анализирует код завершения, выводя соответствующее сообщение: число больше нуля, меньше нуля или равно нулю.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 3.&lt;/strong&gt; Написан командный файл, создающий заданное количество пронумерованных временных файлов (&lt;code&gt;1.tmp&lt;/code&gt;, &lt;code&gt;2.tmp&lt;/code&gt;, &amp;hellip;, &lt;code&gt;N.tmp&lt;/code&gt;). Число файлов передаётся аргументом командной строки. Тот же скрипт при передаче соответствующего ключа удаляет все созданные файлы, если они существуют.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 4.&lt;/strong&gt; Написан командный файл, упаковывающий содержимое указанной директории в архив с помощью &lt;code&gt;tar&lt;/code&gt;. Скрипт доработан так, чтобы в архив попадали только файлы, изменённые менее недели назад — для фильтрации использована команда &lt;code&gt;find&lt;/code&gt; с параметром &lt;code&gt;-mtime&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
-&lt;p&gt;Неделя была посвящена практическому освоению управляющих конструкций Bash: &lt;code&gt;if&lt;/code&gt;/&lt;code&gt;else&lt;/code&gt;, циклов &lt;code&gt;while&lt;/code&gt; и &lt;code&gt;for&lt;/code&gt;, команды &lt;code&gt;getopts&lt;/code&gt; для разбора аргументов, а также взаимодействию командной оболочки с программами на Си через коды завершения. Все четыре задания выполнены и оформлены в виде отчёта с листингами и скриншотами.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Языки научного программирования</title>
       <link>https://lebedev-s-a.github.io/personal_site/publications/preprint-copy/</link>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
@@ -469,6 +453,64 @@
     </item>
     
     <item>
+      <title>🐚 Weekly Summary — Shell Programming in UNIX</title>
+      <link>https://lebedev-s-a.github.io/personal_site/blog/shell-programming/</link>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://lebedev-s-a.github.io/personal_site/blog/shell-programming/</guid>
+      <description>&lt;p&gt;This week I completed Lab #12 — Advanced Shell Programming in UNIX. The work focused on writing complex bash scripts using logical control structures and loops.&lt;/p&gt;
+
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#goal&#34;&gt;Goal&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#task-1-semaphore-mechanism&#34;&gt;Task 1: Semaphore Mechanism&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#task-2-custom-man-command&#34;&gt;Task 2: Custom &lt;code&gt;man&lt;/code&gt; Command&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#task-3-random-letter-generator&#34;&gt;Task 3: Random Letter Generator&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#conclusions&#34;&gt;Conclusions&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;
+&lt;p&gt;Study the basics of programming in the UNIX shell. Learn to write more complex shell scripts using logical control constructs and loops.&lt;/p&gt;
+&lt;h2 id=&#34;task-1-semaphore-mechanism&#34;&gt;Task 1: Semaphore Mechanism&lt;/h2&gt;
+&lt;p&gt;I wrote a shell script implementing a simplified semaphore mechanism. The script:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;waits up to time &lt;code&gt;t1&lt;/code&gt; for a resource to become free, printing status messages throughout&lt;/li&gt;
+&lt;li&gt;once the resource is free, uses it for time &lt;code&gt;t2 ≠ t1&lt;/code&gt;, also printing that the resource is in use&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The script was launched in one virtual terminal in the background with output redirected to another terminal (&lt;code&gt;&amp;gt; /dev/tty#&lt;/code&gt;). The same script was run in the second terminal in normal mode. This demonstrated how two processes compete for the same shared resource.&lt;/p&gt;
+&lt;p&gt;The program was then extended to support interaction of three or more concurrent processes through a single semaphore.&lt;/p&gt;
+&lt;h2 id=&#34;task-2-custom-man-command&#34;&gt;Task 2: Custom &lt;code&gt;man&lt;/code&gt; Command&lt;/h2&gt;
+&lt;p&gt;I implemented the &lt;code&gt;man&lt;/code&gt; command as a shell script. The script:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;accepts a command name as a command-line argument&lt;/li&gt;
+&lt;li&gt;searches &lt;code&gt;/usr/share/man/man1/&lt;/code&gt; for the corresponding archive&lt;/li&gt;
+&lt;li&gt;if found, displays the help page using &lt;code&gt;less&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;if not found, outputs a message indicating missing documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;task-3-random-letter-generator&#34;&gt;Task 3: Random Letter Generator&lt;/h2&gt;
+&lt;p&gt;Using the built-in &lt;code&gt;$RANDOM&lt;/code&gt; variable (which produces pseudo-random numbers in the range 0–32767), I wrote a script that generates a random sequence of Latin alphabet letters. The letter was computed as:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$((&lt;/span&gt; RANDOM &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;26&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;65&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;letter&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;printf&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;\\&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;printf&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;%03o&amp;#39;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$code&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;conclusions&#34;&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;Through this lab I gained practical experience with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;process synchronization using file-based semaphores&lt;/li&gt;
+&lt;li&gt;working with the &lt;code&gt;/usr/share/man/&lt;/code&gt; directory structure and documentation format&lt;/li&gt;
+&lt;li&gt;arithmetic operations and the &lt;code&gt;$RANDOM&lt;/code&gt; variable in bash&lt;/li&gt;
+&lt;li&gt;redirecting I/O between terminals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Shell scripting is a powerful tool for system-level automation that is difficult to replace with higher-level languages in certain scenarios.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Курс «Введение в Linux» на Stepik</title>
       <link>https://lebedev-s-a.github.io/personal_site/projects/pandas/</link>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
@@ -555,57 +597,6 @@
     </item>
     
     <item>
-      <title>📈 Итоги недели</title>
-      <link>https://lebedev-s-a.github.io/personal_site/blog/notebook-onboarding/</link>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/blog/notebook-onboarding/</guid>
-      <description>&lt;h2 id=&#34;что-сделал-за-неделю&#34;&gt;Что сделал за неделю&lt;/h2&gt;
-&lt;p&gt;На этой неделе сфокусировался на сборке и упаковке своего сайта.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Разобрался с Hugo и Hugo Blox&lt;/li&gt;
-&lt;li&gt;Поднял локальный сервер и настроил структуру&lt;/li&gt;
-&lt;li&gt;Заполнил основные разделы (Experience, Skills, Education)&lt;/li&gt;
-&lt;li&gt;Привёл профиль к более адекватному виду без фейковых достижений&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Параллельно:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Продолжил работать с Linux и терминалом&lt;/li&gt;
-&lt;li&gt;Закрывал задания по ОС&lt;/li&gt;
-&lt;li&gt;Тестировал идеи под проекты&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;что-понял&#34;&gt;Что понял&lt;/h2&gt;
-&lt;p&gt;Главное — делать быстро, а не идеально.&lt;/p&gt;
-&lt;p&gt;Большая часть проблем решается не только знаниями, а ещё:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;пробами&lt;/li&gt;
-&lt;li&gt;ошибками&lt;/li&gt;
-&lt;li&gt;быстрыми итерациями&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Также понял, что:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;важно не просто учиться, а что-то собирать руками&lt;/li&gt;
-&lt;li&gt;сайт — это не просто страничка, а инструмент позиционирования&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;ошибки&#34;&gt;Ошибки&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Сначала пытался сделать идеально красиво&lt;/li&gt;
-&lt;li&gt;Оставил в шаблоне фейковый опыт&lt;/li&gt;
-&lt;li&gt;Потратил лишнее время на неважные детали&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;план-на-следующую-неделю&#34;&gt;План на следующую неделю&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Нормально оформить Projects&lt;/li&gt;
-&lt;li&gt;Добавить реальные кейсы&lt;/li&gt;
-&lt;li&gt;Начать использовать сайт для выхода на клиентов и возможностей&lt;/li&gt;
-&lt;li&gt;Улучшить дизайн&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
-&lt;p&gt;Неделя была не столько про результат, сколько про фундамент.&lt;/p&gt;
-&lt;p&gt;Собрал базу, на которой уже можно строить дальше.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Язык разметки LaTeX</title>
       <link>https://lebedev-s-a.github.io/personal_site/publications/preprint/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
@@ -663,11 +654,11 @@
     </item>
     
     <item>
-      <title>🎉 Основы управления версиями Git</title>
+      <title>🎉 Git Version Control Basics</title>
       <link>https://lebedev-s-a.github.io/personal_site/blog/get-started/</link>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://lebedev-s-a.github.io/personal_site/blog/get-started/</guid>
-      <description>&lt;p&gt;Добрый день 👋&lt;/p&gt;
+      <description>&lt;p&gt;Hello 👋&lt;/p&gt;
 
 
 
@@ -676,94 +667,94 @@
   &lt;div class=&#34;text-sm&#34;&gt;
   &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#введение&#34;&gt;Введение&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#зачем-нужен-git&#34;&gt;Зачем нужен Git&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#основные-команды-git&#34;&gt;Основные команды Git&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#принцип-работы&#34;&gt;Принцип работы&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#преимущества-git&#34;&gt;Преимущества Git&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#заключение&#34;&gt;Заключение&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#why-git&#34;&gt;Why Git?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#core-git-commands&#34;&gt;Core Git Commands&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#how-it-works&#34;&gt;How It Works&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#advantages-of-git&#34;&gt;Advantages of Git&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
   &lt;/div&gt;
 &lt;/details&gt;
 
-&lt;h2 id=&#34;введение&#34;&gt;Введение&lt;/h2&gt;
-&lt;p&gt;Git — это система управления версиями, которая позволяет отслеживать изменения в коде и управлять историей проекта. Она широко используется в разработке программного обеспечения и является стандартом в индустрии.&lt;/p&gt;
-&lt;h2 id=&#34;зачем-нужен-git&#34;&gt;Зачем нужен Git&lt;/h2&gt;
-&lt;p&gt;Git решает несколько важных задач:&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Git is a version control system that allows you to track changes in your code and manage the history of a project. It is widely used in software development and is the industry standard.&lt;/p&gt;
+&lt;h2 id=&#34;why-git&#34;&gt;Why Git?&lt;/h2&gt;
+&lt;p&gt;Git solves several important problems:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;хранение истории изменений проекта&lt;/li&gt;
-&lt;li&gt;возможность вернуться к предыдущим версиям&lt;/li&gt;
-&lt;li&gt;совместная работа над кодом&lt;/li&gt;
-&lt;li&gt;контроль и безопасность изменений&lt;/li&gt;
+&lt;li&gt;stores the full history of project changes&lt;/li&gt;
+&lt;li&gt;allows you to roll back to previous versions&lt;/li&gt;
+&lt;li&gt;enables collaborative work on code&lt;/li&gt;
+&lt;li&gt;provides control and safety for changes&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Это особенно важно при работе в команде, где несколько человек одновременно изменяют один и тот же проект.&lt;/p&gt;
-&lt;h2 id=&#34;основные-команды-git&#34;&gt;Основные команды Git&lt;/h2&gt;
-&lt;p&gt;Ниже приведены базовые команды, которые используются чаще всего:&lt;/p&gt;
+&lt;p&gt;This is especially important when working in a team where multiple people are simultaneously modifying the same project.&lt;/p&gt;
+&lt;h2 id=&#34;core-git-commands&#34;&gt;Core Git Commands&lt;/h2&gt;
+&lt;p&gt;The most commonly used commands:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;git init&lt;/code&gt; — инициализация репозитория&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git add .&lt;/code&gt; — добавление файлов в индекс&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git commit -m &amp;quot;message&amp;quot;&lt;/code&gt; — сохранение изменений&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git push&lt;/code&gt; — отправка изменений на удалённый репозиторий&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git pull&lt;/code&gt; — получение изменений&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git init&lt;/code&gt; — initialize a repository&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git add .&lt;/code&gt; — stage files&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git commit -m &amp;quot;message&amp;quot;&lt;/code&gt; — save changes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push&lt;/code&gt; — push changes to a remote repository&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git pull&lt;/code&gt; — pull changes from remote&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;принцип-работы&#34;&gt;Принцип работы&lt;/h2&gt;
-&lt;p&gt;Git работает через систему коммитов. Каждый коммит — это сохранённое состояние проекта в определённый момент времени.&lt;/p&gt;
-&lt;p&gt;Основные этапы работы:&lt;/p&gt;
+&lt;h2 id=&#34;how-it-works&#34;&gt;How It Works&lt;/h2&gt;
+&lt;p&gt;Git operates through a system of commits. Each commit is a saved state of the project at a specific point in time.&lt;/p&gt;
+&lt;p&gt;The main workflow:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Изменение файлов&lt;/li&gt;
-&lt;li&gt;Добавление в индекс (&lt;code&gt;git add&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;Создание коммита (&lt;code&gt;git commit&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;Отправка на сервер (&lt;code&gt;git push&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Modify files&lt;/li&gt;
+&lt;li&gt;Stage changes (&lt;code&gt;git add&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Create a commit (&lt;code&gt;git commit&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Push to the server (&lt;code&gt;git push&lt;/code&gt;)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;преимущества-git&#34;&gt;Преимущества Git&lt;/h2&gt;
+&lt;h2 id=&#34;advantages-of-git&#34;&gt;Advantages of Git&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;высокая скорость работы&lt;/li&gt;
-&lt;li&gt;распределённая система (каждый разработчик имеет полную копию проекта)&lt;/li&gt;
-&lt;li&gt;гибкость и надёжность&lt;/li&gt;
-&lt;li&gt;широкое распространение&lt;/li&gt;
+&lt;li&gt;high performance&lt;/li&gt;
+&lt;li&gt;distributed system — every developer has a full copy of the project&lt;/li&gt;
+&lt;li&gt;flexibility and reliability&lt;/li&gt;
+&lt;li&gt;wide adoption&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;Git является важным инструментом для любого разработчика. Даже базовое понимание его принципов значительно упрощает работу с проектами и позволяет эффективно управлять кодом.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Git is an essential tool for any developer. Even a basic understanding of its principles greatly simplifies working with projects and enables effective code management.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>📈 Итоги недели</title>
+      <title>📈 Weekly Summary</title>
       <link>https://lebedev-s-a.github.io/personal_site/blog/data-visualization/</link>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://lebedev-s-a.github.io/personal_site/blog/data-visualization/</guid>
-      <description>&lt;p&gt;На этой неделе я продолжил работу над лабораторными заданиями по операционным системам и изучал основы работы в Unix-подобных системах.&lt;/p&gt;
-&lt;p&gt;Также занимался настройкой окружения и выполнением практических заданий, связанных с командной строкой и файловой системой. Полученные знания помогают лучше понимать принципы работы операционных систем и взаимодействия с ними.&lt;/p&gt;
+      <description>&lt;p&gt;This week I continued working on lab assignments for the Operating Systems course and studied the basics of working in Unix-like systems.&lt;/p&gt;
+&lt;p&gt;I also set up the development environment and completed practical tasks related to the command line and file system. The knowledge gained helps to better understand the principles of how operating systems work and how to interact with them.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>📚 Работа с библиографией в академических текстах</title>
+      <title>📚 Bibliography in Academic Writing</title>
       <link>https://lebedev-s-a.github.io/personal_site/blog/second-brain/</link>
       <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://lebedev-s-a.github.io/personal_site/blog/second-brain/</guid>
-      <description>&lt;p&gt;Библиография — это не просто список литературы в конце работы. Это инструмент, который показывает, насколько глубоко автор погрузился в тему, и позволяет читателю проверить источники самостоятельно.&lt;/p&gt;
-&lt;h2 id=&#34;что-такое-библиография-и-зачем-она-нужна&#34;&gt;Что такое библиография и зачем она нужна&lt;/h2&gt;
-&lt;p&gt;Библиография — это упорядоченный перечень всех источников, которые были использованы при написании научной или учебной работы. Она выполняет сразу несколько функций:&lt;/p&gt;
+      <description>&lt;p&gt;A bibliography is more than just a list of sources at the end of a paper. It is a tool that demonstrates how deeply an author engaged with the topic and allows readers to verify the information independently.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-bibliography-and-why-does-it-matter&#34;&gt;What Is a Bibliography and Why Does It Matter?&lt;/h2&gt;
+&lt;p&gt;A bibliography is an ordered list of all sources used when writing a scientific or academic paper. It serves several functions:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Подтверждает достоверность&lt;/strong&gt; — читатель может проверить каждый факт&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Защищает от плагиата&lt;/strong&gt; — все заимствования явно указаны&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Показывает глубину исследования&lt;/strong&gt; — видно, с каким объёмом материала работал автор&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Помогает другим исследователям&lt;/strong&gt; — найти связанные источники по теме&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Confirms credibility&lt;/strong&gt; — readers can verify every claim&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Protects against plagiarism&lt;/strong&gt; — all borrowings are explicitly listed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shows research depth&lt;/strong&gt; — demonstrates the volume of material the author worked through&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Helps other researchers&lt;/strong&gt; — find related sources on the topic&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;основные-стили-оформления&#34;&gt;Основные стили оформления&lt;/h2&gt;
-&lt;p&gt;В академической среде существует несколько стандартов оформления библиографии. Выбор зависит от дисциплины и требований учебного заведения.&lt;/p&gt;
-&lt;h3 id=&#34;гост-р-705-2008&#34;&gt;ГОСТ Р 7.0.5-2008&lt;/h3&gt;
-&lt;p&gt;Российский стандарт, обязательный для большинства вузов страны. Пример оформления книги:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Иванов, А. В. Основы научных исследований / А. В. Иванов. — Москва : Наука, 2020. — 320 с.
+&lt;h2 id=&#34;main-citation-styles&#34;&gt;Main Citation Styles&lt;/h2&gt;
+&lt;p&gt;Academic practice has several bibliography formatting standards. The choice depends on the discipline and institutional requirements.&lt;/p&gt;
+&lt;h3 id=&#34;gost-r-705-2008&#34;&gt;GOST R 7.0.5-2008&lt;/h3&gt;
+&lt;p&gt;The Russian national standard, mandatory at most Russian universities. Example for a book:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Ivanov, A. V. Foundations of Scientific Research / A. V. Ivanov. — Moscow : Nauka, 2020. — 320 p.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;apa-american-psychological-association&#34;&gt;APA (American Psychological Association)&lt;/h3&gt;
-&lt;p&gt;Используется в психологии, социологии, образовании:&lt;/p&gt;
+&lt;p&gt;Used in psychology, sociology, and education:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Ivanov, A. V. (2020). Foundations of scientific research. Nauka.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;mla-modern-language-association&#34;&gt;MLA (Modern Language Association)&lt;/h3&gt;
-&lt;p&gt;Популярен в гуманитарных науках:&lt;/p&gt;
+&lt;p&gt;Popular in the humanities:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Ivanov, Alexei V. Foundations of Scientific Research. Nauka, 2020.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;виды-источников-и-их-оформление&#34;&gt;Виды источников и их оформление&lt;/h2&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;types-of-sources-and-their-formatting&#34;&gt;Types of Sources and Their Formatting&lt;/h2&gt;
 
 
 
@@ -808,50 +799,50 @@
   &lt;/span&gt;
   &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
     &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Note&lt;/div&gt;
-    &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;Разные типы источников оформляются по-разному. Важно не перепутать схему для книги, статьи и интернет-ресурса.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;Different source types are formatted differently. It&amp;rsquo;s important not to mix up the scheme for a book, an article, and a web resource.&lt;/p&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Книга (монография):&lt;/strong&gt;
-Автор, инициалы. &lt;em&gt;Название&lt;/em&gt;. — Город : Издательство, год. — Количество страниц.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Статья в журнале:&lt;/strong&gt;
-Автор, инициалы. Название статьи // Название журнала. — год. — Том, № номер. — С. страницы.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Интернет-ресурс:&lt;/strong&gt;
-Автор. Название материала [Электронный ресурс]. — URL: адрес (дата обращения: дд.мм.гггг).&lt;/p&gt;
-&lt;h2 id=&#34;инструменты-для-управления-источниками&#34;&gt;Инструменты для управления источниками&lt;/h2&gt;
-&lt;p&gt;Работать с большим количеством источников вручную — неудобно. Существуют специальные программы-менеджеры библиографии:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Book (monograph):&lt;/strong&gt;
+Author, initials. &lt;em&gt;Title&lt;/em&gt;. — City : Publisher, year. — Number of pages.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Journal article:&lt;/strong&gt;
+Author, initials. Article title // Journal Name. — year. — Vol., No. — pp. pages.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Web resource:&lt;/strong&gt;
+Author. Material title [Electronic resource]. — URL: address (accessed: dd.mm.yyyy).&lt;/p&gt;
+&lt;h2 id=&#34;reference-management-tools&#34;&gt;Reference Management Tools&lt;/h2&gt;
+&lt;p&gt;Working with a large number of sources manually is inconvenient. There are dedicated reference manager programs:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th&gt;Инструмент&lt;/th&gt;
-          &lt;th&gt;Бесплатно&lt;/th&gt;
-          &lt;th&gt;Особенности&lt;/th&gt;
+          &lt;th&gt;Tool&lt;/th&gt;
+          &lt;th&gt;Free&lt;/th&gt;
+          &lt;th&gt;Notes&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;Zotero&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;✅&lt;/td&gt;
-          &lt;td&gt;Лучший выбор для большинства задач, плагин для браузера&lt;/td&gt;
+          &lt;td&gt;Best choice for most tasks, browser plugin&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;Mendeley&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;✅&lt;/td&gt;
-          &lt;td&gt;Удобен для PDF и совместной работы&lt;/td&gt;
+          &lt;td&gt;Great for PDFs and collaborative work&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;EndNote&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;❌&lt;/td&gt;
-          &lt;td&gt;Профессиональный инструмент для серьёзных исследований&lt;/td&gt;
+          &lt;td&gt;Professional tool for serious researchers&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;CiteMachine&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;✅&lt;/td&gt;
-          &lt;td&gt;Онлайн-генератор ссылок, быстро и просто&lt;/td&gt;
+          &lt;td&gt;Online citation generator, quick and simple&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;частые-ошибки&#34;&gt;Частые ошибки&lt;/h2&gt;
+&lt;h2 id=&#34;common-mistakes&#34;&gt;Common Mistakes&lt;/h2&gt;
 
 
 
@@ -896,19 +887,19 @@
   &lt;/span&gt;
   &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
     &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Warning&lt;/div&gt;
-    &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;Эти ошибки встречаются в большинстве студенческих работ — лучше проверить заранее.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;These errors appear in most student papers — better to check in advance.&lt;/p&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Источник есть в тексте, но нет в списке&lt;/strong&gt; — или наоборот&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Непоследовательный стиль&lt;/strong&gt; — часть источников по ГОСТу, часть по APA&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Нет даты обращения&lt;/strong&gt; для интернет-ресурсов&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Неверный порядок&lt;/strong&gt; — по ГОСТу список должен быть в алфавитном порядке&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Устаревшие источники&lt;/strong&gt; без необходимости — лучше использовать издания последних 5–10 лет&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Source is in the text but not in the list&lt;/strong&gt; — or vice versa&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inconsistent style&lt;/strong&gt; — some sources in GOST, some in APA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No access date&lt;/strong&gt; for web resources&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wrong order&lt;/strong&gt; — GOST requires alphabetical order&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outdated sources&lt;/strong&gt; without justification — prefer publications from the last 5–10 years&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
-&lt;p&gt;Грамотно оформленная библиография — это признак уважения к читателю и к науке в целом. Потратьте немного времени на изучение нужного стандарта, используйте менеджеры источников и проверяйте список перед сдачей работы.&lt;/p&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;A well-formatted bibliography is a sign of respect for the reader and for scholarship. Take a little time to learn the required standard, use reference managers, and check your list before submission.&lt;/p&gt;
 </description>
     </item>
     
@@ -1519,89 +1510,6 @@ data.head()
   &lt;span class=&#34;inline-block  pr-1&#34;&gt;
     &lt;span style=&#34;height: 1em; transform: translateY(0.1em);&#34;&gt;python&lt;/span&gt;
   &lt;/span&gt; Python&lt;/p&gt;
-&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Experience</title>
-      <link>https://lebedev-s-a.github.io/personal_site/experience/</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/experience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>✅ Manage your projects</title>
-      <link>https://lebedev-s-a.github.io/personal_site/blog/project-management/</link>
-      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/blog/project-management/</guid>
-      <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
-&lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
-&lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
-&lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
-&lt;p&gt;Mindmaps can be created by simply writing the items as a Markdown list within the &lt;code&gt;markmap&lt;/code&gt; code block, indenting each item to create as many sub-levels as you need:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;
-&lt;code&gt;
-```markmap {height=&#34;200px&#34;}
-- Hugo Modules
-  - Hugo Blox
-  - netlify
-  - netlify-cms
-  - slides
-```
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
-
-&lt;pre&gt;- Hugo Modules
-  - Hugo Blox
-  - netlify
-  - netlify-cms
-  - slides&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
-&lt;p&gt;Hugo Blox supports the &lt;em&gt;Mermaid&lt;/em&gt; Markdown extension for diagrams.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34;&gt;gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-&lt;/div&gt;
-&lt;h2 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h2&gt;
-&lt;p&gt;You can even write your todo lists in Markdown too:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write math example
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write diagram example
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Do something else
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
 </description>
     </item>
@@ -4257,6 +4165,14 @@ Navigate down for sub-topics!&lt;/p&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://lebedev-s-a.github.io/personal_site/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lebedev-s-a.github.io/personal_site/experience/</guid>
+      <description></description>
     </item>
     
     <item>

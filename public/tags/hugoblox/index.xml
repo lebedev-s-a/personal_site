@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HugoBlox | </title>
+    <title>HugoBlox | Sergei Lebedev</title>
     <link>https://lebedev-s-a.github.io/personal_site/tags/hugoblox/</link>
       <atom:link href="https://lebedev-s-a.github.io/personal_site/tags/hugoblox/index.xml" rel="self" type="application/rss+xml" />
     <description>HugoBlox</description>
@@ -177,22 +177,6 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
 &lt;p&gt;В результате прохождения курса сформированы устойчивые практические навыки работы с командной строкой Linux, управления файловой системой, правами доступа и текстовыми редакторами. Освоен полный цикл подготовки академических документов с использованием современного инструментария: Pandoc, XeLaTeX, Beamer, Hugo Blox.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Результаты прошлой недели</title>
-      <link>https://lebedev-s-a.github.io/personal_site/blog/teach-courses/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/blog/teach-courses/</guid>
-      <description>&lt;p&gt;На прошлой неделе была выполнена лабораторная работа №13 — программирование в командном процессоре ОС UNIX: ветвления и циклы.&lt;/p&gt;
-&lt;h2 id=&#34;что-было-сделано&#34;&gt;Что было сделано&lt;/h2&gt;
-&lt;p&gt;Основная тема недели — написание сложных командных файлов (shell-скриптов) с использованием логических управляющих конструкций и циклов. Работа включала четыре самостоятельных задания.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 1.&lt;/strong&gt; Написан командный файл с использованием &lt;code&gt;getopts&lt;/code&gt; и &lt;code&gt;grep&lt;/code&gt;. Скрипт анализирует аргументы командной строки: ключ &lt;code&gt;-i&lt;/code&gt; задаёт входной файл, &lt;code&gt;-o&lt;/code&gt; — выходной, &lt;code&gt;-p&lt;/code&gt; — шаблон для поиска, &lt;code&gt;-C&lt;/code&gt; включает чувствительность к регистру, &lt;code&gt;-n&lt;/code&gt; выводит номера строк. После разбора ключей скрипт выполняет поиск по файлу с помощью &lt;code&gt;grep&lt;/code&gt; и записывает результат в указанный файл вывода.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 2.&lt;/strong&gt; На языке Си написана программа, которая читает число, определяет его знак и завершается через &lt;code&gt;exit(n)&lt;/code&gt;, передавая код завершения в оболочку. Командный файл вызывает эту программу и с помощью переменной &lt;code&gt;$?&lt;/code&gt; анализирует код завершения, выводя соответствующее сообщение: число больше нуля, меньше нуля или равно нулю.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 3.&lt;/strong&gt; Написан командный файл, создающий заданное количество пронумерованных временных файлов (&lt;code&gt;1.tmp&lt;/code&gt;, &lt;code&gt;2.tmp&lt;/code&gt;, &amp;hellip;, &lt;code&gt;N.tmp&lt;/code&gt;). Число файлов передаётся аргументом командной строки. Тот же скрипт при передаче соответствующего ключа удаляет все созданные файлы, если они существуют.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Задание 4.&lt;/strong&gt; Написан командный файл, упаковывающий содержимое указанной директории в архив с помощью &lt;code&gt;tar&lt;/code&gt;. Скрипт доработан так, чтобы в архив попадали только файлы, изменённые менее недели назад — для фильтрации использована команда &lt;code&gt;find&lt;/code&gt; с параметром &lt;code&gt;-mtime&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
-&lt;p&gt;Неделя была посвящена практическому освоению управляющих конструкций Bash: &lt;code&gt;if&lt;/code&gt;/&lt;code&gt;else&lt;/code&gt;, циклов &lt;code&gt;while&lt;/code&gt; и &lt;code&gt;for&lt;/code&gt;, команды &lt;code&gt;getopts&lt;/code&gt; для разбора аргументов, а также взаимодействию командной оболочки с программами на Си через коды завершения. Все четыре задания выполнены и оформлены в виде отчёта с листингами и скриншотами.&lt;/p&gt;</description>
     </item>
     
   </channel>
