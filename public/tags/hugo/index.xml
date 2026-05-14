@@ -5,12 +5,195 @@
     <link>https://lebedev-s-a.github.io/personal_site/tags/hugo/</link>
       <atom:link href="https://lebedev-s-a.github.io/personal_site/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <description>Hugo</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lebedev-s-a.github.io/personal_site/media/icon_hu_da05098ef60dc2e7.png</url>
       <title>Hugo</title>
       <link>https://lebedev-s-a.github.io/personal_site/tags/hugo/</link>
     </image>
+    
+    <item>
+      <title>Индивидуальный проект — Персональный академический сайт</title>
+      <link>https://lebedev-s-a.github.io/personal_site/projects/pytorch/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://lebedev-s-a.github.io/personal_site/projects/pytorch/</guid>
+      <description>&lt;p&gt;Разработка персонального академического сайта на платформе Hugo Blox с размещением на GitHub Pages — индивидуальный проект в рамках курса «Операционные системы» (РУДН, 1 курс, направление 02.03.00 Компьютерные и информационные науки). Руководитель: профессор Кулябов Д. С.&lt;/p&gt;
+&lt;h2 id=&#34;о-проекте&#34;&gt;О проекте&lt;/h2&gt;
+&lt;p&gt;Цель проекта — создать полноценный персональный академический сайт, охватывающий все аспекты профессионального профиля: биографию, навыки, опыт, достижения, научные ссылки и публикации. Сайт построен на генераторе статических страниц &lt;strong&gt;Hugo&lt;/strong&gt; с темой &lt;strong&gt;Hugo Blox&lt;/strong&gt; (Academic), размещён на &lt;strong&gt;GitHub Pages&lt;/strong&gt; и поддерживает два языка — русский и английский.&lt;/p&gt;
+&lt;p&gt;Проект реализован поэтапно: каждый этап добавлял новый блок функциональности и сопровождался тематическим постом.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-1-размещение-заготовки-сайта-на-github-pages&#34;&gt;Этап 1. Размещение заготовки сайта на GitHub Pages&lt;/h2&gt;
+&lt;p&gt;На первом этапе было установлено необходимое программное обеспечение: Hugo Extended, Git, а также настроена локальная среда разработки. Скачан шаблон темы Hugo Blox Academic и размещён в репозитории на GitHub. Настроен параметр &lt;code&gt;baseURL&lt;/code&gt; в конфигурационном файле &lt;code&gt;config.yaml&lt;/code&gt; — указан адрес будущего сайта в домене &lt;code&gt;github.io&lt;/code&gt;. Репозиторий подключён к GitHub Pages через ветку &lt;code&gt;gh-pages&lt;/code&gt; с автоматической публикацией средствами GitHub Actions. После первого деплоя сайт стал доступен по публичному адресу.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пост этапа:&lt;/strong&gt; пост по прошедшей неделе — первые шаги с Hugo и GitHub Pages.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-2-добавление-данных-о-владельце-сайта&#34;&gt;Этап 2. Добавление данных о владельце сайта&lt;/h2&gt;
+&lt;p&gt;На втором этапе сайт был наполнен персональной информацией. В файле &lt;code&gt;content/authors/admin/_index.md&lt;/code&gt; размещена фотография владельца и заполнены все основные поля профиля:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Фотография&lt;/strong&gt; — загружен файл &lt;code&gt;avatar.jpg&lt;/code&gt; в папку профиля; имя и должность отображаются на главной странице.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Biography / Professional Summary&lt;/strong&gt; — добавлено краткое описание: студент направления «Компьютерные науки» РУДН, изучающий программирование, архитектуру компьютеров и операционные системы.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interests&lt;/strong&gt; — перечислены интересы: программирование на Python и C++, компьютерные технологии, веб-разработка, изучение иностранных языков.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Education&lt;/strong&gt; — добавлена запись о бакалавриате: направление «Компьютерные науки», РУДН, с сентября 2025 года по настоящее время.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Созданы два поста: еженедельный отчёт о работе с сайтом и тематический пост &lt;strong&gt;«Управление версиями. Git»&lt;/strong&gt; — введение в систему контроля версий, основные концепции, принцип работы, преимущества использования в учебных и рабочих проектах.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-3-добавление-достижений&#34;&gt;Этап 3. Добавление достижений&lt;/h2&gt;
+&lt;p&gt;На третьем этапе заполнены блоки, отражающие профессиональный профиль владельца:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Skills&lt;/strong&gt; — добавлены технические навыки: языки программирования (Python, C++, Bash), инструменты (Git, Linux, LaTeX, Pandoc), уровни владения представлены в виде шкал.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experience&lt;/strong&gt; — добавлена информация об опыте: учебные проекты, лабораторные работы по операционным системам, работа с командной строкой Linux.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accomplishments&lt;/strong&gt; — добавлены достижения: прохождение курса на Stepik по основам Linux, успешное прохождение цикла лабораторных работ по ОС.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Тематический пост этапа — &lt;strong&gt;«Язык разметки Markdown»&lt;/strong&gt;: история создания, синтаксис заголовков, списков, кода, таблиц и ссылок; применение Markdown в академических документах и на платформах Hugo и GitHub.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-4-добавление-научных-и-библиометрических-ссылок&#34;&gt;Этап 4. Добавление научных и библиометрических ссылок&lt;/h2&gt;
+&lt;p&gt;На четвёртом этапе выполнена регистрация на ключевых научных платформах и размещение ссылок в профиле сайта в блоке &lt;code&gt;social&lt;/code&gt;:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Платформа&lt;/th&gt;
+          &lt;th&gt;Назначение&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;eLibrary&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Российская научная электронная библиотека&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Google Scholar&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Поиск академических публикаций&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ORCID&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Уникальный идентификатор исследователя&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Mendeley&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Менеджер библиографии и PDF&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ResearchGate&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Социальная сеть для учёных&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Academia.edu&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Платформа для обмена академическими работами&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;arXiv&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Препринты по точным наукам и CS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Репозитории учебных и личных проектов&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Тематический пост этапа — &lt;strong&gt;«Создание презентаций»&lt;/strong&gt;: сравнение инструментов (PowerPoint, Google Slides, Beamer/LaTeX), описание рабочего процесса создания презентаций через Pandoc и тему Metropolis с шрифтами IBM Plex.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-5-добавление-проектов-и-дополнительных-элементов&#34;&gt;Этап 5. Добавление проектов и дополнительных элементов&lt;/h2&gt;
+&lt;p&gt;На пятом этапе на сайте оформлены записи для персональных проектов в разделе &lt;code&gt;content/project/&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Лабораторные работы по ОС&lt;/strong&gt; — цикл из 14 работ по Unix/Linux (командная строка, файловая система, права доступа, текстовые редакторы vi и Midnight Commander).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Индивидуальный проект — данный сайт&lt;/strong&gt; — описание этапов разработки академического сайта на Hugo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Тематический пост этапа — &lt;strong&gt;«Языки научного программирования»&lt;/strong&gt;: обзор Python, R, Julia и MATLAB; сравнение экосистем для научных вычислений, визуализации данных и написания воспроизводимых исследований.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-6-двуязычный-сайт-на-github&#34;&gt;Этап 6. Двуязычный сайт на GitHub&lt;/h2&gt;
+&lt;p&gt;Заключительный этап — добавление поддержки двух языков. В конфигурации Hugo активированы два языка (&lt;code&gt;ru&lt;/code&gt; и &lt;code&gt;en&lt;/code&gt;), созданы папки &lt;code&gt;content/ru/&lt;/code&gt; и &lt;code&gt;content/en/&lt;/code&gt; с параллельными версиями всех страниц. Переключатель языка отображается в шапке сайта. Все ключевые разделы переведены: биография, интересы, образование, навыки, описания проектов. Оба поста этапа — еженедельный отчёт и тематический — написаны на русском и английском языках одновременно.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;стек-технологий&#34;&gt;Стек технологий&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Инструмент&lt;/th&gt;
+          &lt;th&gt;Роль&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hugo Extended&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Генератор статического сайта&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hugo Blox (Academic)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Тема с готовыми блоками профиля&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Хостинг и публикация&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;GitHub Actions&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Автоматический деплой при push&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Язык разметки контента&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Git&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Управление версиями исходников сайта&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
+&lt;p&gt;За шесть этапов создан полноценный персональный академический сайт: от пустой заготовки до двуязычного ресурса с профилем, проектами, публикациями и научными ссылками. Проект дал практику работы с Hugo, GitHub Actions, Markdown и системой контроля версий Git в контексте реального публичного продукта.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Лабораторные работы по операционным системам</title>
+      <link>https://lebedev-s-a.github.io/personal_site/projects/scikit/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://lebedev-s-a.github.io/personal_site/projects/scikit/</guid>
+      <description>&lt;p&gt;Цикл из 14 лабораторных работ по дисциплине «Архитектура компьютеров и операционные системы» (раздел «Операционные системы»), выполненных в рамках первого курса направления 02.03.00 Компьютерные и информационные науки в РУДН под руководством профессора Кулябова Д. С.&lt;/p&gt;
+&lt;h2 id=&#34;о-проекте&#34;&gt;О проекте&lt;/h2&gt;
+&lt;p&gt;В ходе курса последовательно изучались принципы устройства и работы операционных систем семейства Linux/Unix: от базовых команд командной строки до управления правами доступа, работы с текстовыми редакторами и файловыми архивами. Каждая лабораторная работа сопровождалась оформленным отчётом и презентацией в формате Beamer, собранными с помощью Pandoc и XeLaTeX.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-15-установка-и-настройка-рабочей-среды&#34;&gt;ЛР №1–5. Установка и настройка рабочей среды&lt;/h2&gt;
+&lt;p&gt;Первые лабораторные работы были посвящены знакомству с виртуальной машиной и начальной настройке Linux-окружения: установке дистрибутива, первичной конфигурации пользователя, настройке системы и знакомству с графическим интерфейсом. Были изучены основные понятия: файловая система, пользователи и группы, права доступа на уровне теории.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-6-основы-командной-строки-unix&#34;&gt;ЛР №6. Основы командной строки Unix&lt;/h2&gt;
+&lt;p&gt;Лабораторная работа познакомила с основным инструментом взаимодействия пользователя с системой — командной строкой. Отработаны команды навигации по файловой системе (&lt;code&gt;cd&lt;/code&gt;, &lt;code&gt;pwd&lt;/code&gt;), просмотра содержимого каталогов (&lt;code&gt;ls&lt;/code&gt;) с ключами &lt;code&gt;-a&lt;/code&gt;, &lt;code&gt;-l&lt;/code&gt;, &lt;code&gt;-R&lt;/code&gt;, &lt;code&gt;-lt&lt;/code&gt;, создания и удаления каталогов (&lt;code&gt;mkdir&lt;/code&gt;, &lt;code&gt;rm -r&lt;/code&gt;). Изучена справочная система &lt;code&gt;man&lt;/code&gt; применительно к командам &lt;code&gt;cd&lt;/code&gt;, &lt;code&gt;pwd&lt;/code&gt;, &lt;code&gt;mkdir&lt;/code&gt;, &lt;code&gt;rmdir&lt;/code&gt;, &lt;code&gt;rm&lt;/code&gt;. Освоена работа с историей команд (&lt;code&gt;history&lt;/code&gt;): повтор и модификация команд по номеру из буфера с конструкциями &lt;code&gt;!N&lt;/code&gt; и &lt;code&gt;!N:s/старое/новое&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-7-анализ-файловой-системы-linux&#34;&gt;ЛР №7. Анализ файловой системы Linux&lt;/h2&gt;
+&lt;p&gt;Работа была посвящена углублённому изучению команд для работы с файлами и каталогами. Отработано копирование (&lt;code&gt;cp&lt;/code&gt;, &lt;code&gt;cp -r&lt;/code&gt;), перемещение и переименование (&lt;code&gt;mv&lt;/code&gt;), создание файлов (&lt;code&gt;touch&lt;/code&gt;). Освоено управление правами доступа командой &lt;code&gt;chmod&lt;/code&gt; в символьном формате (&lt;code&gt;u+x&lt;/code&gt;, &lt;code&gt;g-r&lt;/code&gt;) и восьмеричном (&lt;code&gt;chmod 744&lt;/code&gt;, &lt;code&gt;chmod 711&lt;/code&gt;, &lt;code&gt;chmod 664&lt;/code&gt;). Практически продемонстрировано, как ограничение права чтения (&lt;code&gt;u-r&lt;/code&gt;) блокирует &lt;code&gt;cat&lt;/code&gt; и &lt;code&gt;cp&lt;/code&gt;, а ограничение права выполнения (&lt;code&gt;u-x&lt;/code&gt;) делает невозможным вход в каталог. Изучены системные команды &lt;code&gt;mount&lt;/code&gt;, &lt;code&gt;fsck&lt;/code&gt;, &lt;code&gt;mkfs&lt;/code&gt; и &lt;code&gt;kill&lt;/code&gt; по справочным страницам &lt;code&gt;man&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-8-текстовые-редакторы&#34;&gt;ЛР №8. Текстовые редакторы&lt;/h2&gt;
+&lt;p&gt;Лабораторная работа охватывала знакомство с несколькими текстовыми редакторами, доступными в Unix-системах. Изучены возможности редактирования файлов непосредственно в терминале без графического интерфейса.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-9-midnight-commander&#34;&gt;ЛР №9. Midnight Commander&lt;/h2&gt;
+&lt;p&gt;Освоен файловый менеджер Midnight Commander (&lt;code&gt;mc&lt;/code&gt;). Изучена навигация по двухпанельному интерфейсу, операции с файлами с помощью функциональных клавиш (F3 — просмотр, F4 — редактирование, F7 — создание каталога, F5/F6 — копирование/перемещение). Отработан встроенный текстовый редактор mc: вставка и удаление фрагментов текста, копирование и перемещение блоков, отмена действий. Изучена подсветка синтаксиса на примере HTML-файла. Использованы пункты подменю &lt;strong&gt;Команда&lt;/strong&gt; для поиска файлов и просмотра истории команд.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-10-текстовой-редактор-vi&#34;&gt;ЛР №10. Текстовой редактор vi&lt;/h2&gt;
+&lt;p&gt;Выполнены два задания в редакторе vi — стандартном редакторе Unix-систем. В первом задании создан каталог &lt;code&gt;~/work/os/lab06&lt;/code&gt;, вызван редактор, введён текст Bash-скрипта &lt;code&gt;hello.sh&lt;/code&gt; в режиме вставки (клавиша &lt;code&gt;i&lt;/code&gt;) и файл сохранён командой &lt;code&gt;:wq&lt;/code&gt;. Во втором задании файл открыт повторно, внесены правки: исправлено имя переменной &lt;code&gt;HELL&lt;/code&gt; → &lt;code&gt;HELLO&lt;/code&gt;, удалено слово &lt;code&gt;LOCAL&lt;/code&gt;, строка приведена к нижнему регистру (&lt;code&gt;local&lt;/code&gt;), добавлена новая строка в конец файла. Отработаны команды &lt;code&gt;dd&lt;/code&gt; (удаление строки) и &lt;code&gt;u&lt;/code&gt; (отмена). Скрипт запущен командой &lt;code&gt;./hello.sh&lt;/code&gt; — вывод &lt;code&gt;World&lt;/code&gt; подтвердил корректность программы.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-1114-продвинутые-темы&#34;&gt;ЛР №11–14. Продвинутые темы&lt;/h2&gt;
+&lt;p&gt;В заключительных лабораторных работах рассматривались более сложные аспекты работы с операционной системой: написание сценариев командной оболочки (shell scripting), работа с переменными окружения, планировщики задач и дополнительные инструменты администрирования системы.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;инструменты-и-технологии&#34;&gt;Инструменты и технологии&lt;/h2&gt;
+&lt;p&gt;Все отчёты оформлены в формате Markdown с компиляцией через &lt;strong&gt;Pandoc&lt;/strong&gt; + &lt;strong&gt;XeLaTeX&lt;/strong&gt; в PDF. Презентации собраны на основе темы &lt;strong&gt;Beamer Metropolis&lt;/strong&gt; с шрифтами &lt;strong&gt;IBM Plex&lt;/strong&gt;. Библиография оформлена по ГОСТ с помощью &lt;strong&gt;biblatex&lt;/strong&gt; и стиля &lt;code&gt;gost-numeric&lt;/code&gt;. Перекрёстные ссылки на рисунки реализованы через &lt;strong&gt;pandoc-crossref&lt;/strong&gt;. Исходный код всех работ хранится на GitHub.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
+&lt;p&gt;В результате прохождения курса сформированы устойчивые практические навыки работы с командной строкой Linux, управления файловой системой, правами доступа и текстовыми редакторами. Освоен полный цикл подготовки академических документов с использованием современного инструментария: Pandoc, XeLaTeX, Beamer, Hugo Blox.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Результаты прошлой недели</title>
+      <link>https://lebedev-s-a.github.io/personal_site/blog/teach-courses/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://lebedev-s-a.github.io/personal_site/blog/teach-courses/</guid>
+      <description>&lt;p&gt;На прошлой неделе была выполнена лабораторная работа №13 — программирование в командном процессоре ОС UNIX: ветвления и циклы.&lt;/p&gt;
+&lt;h2 id=&#34;что-было-сделано&#34;&gt;Что было сделано&lt;/h2&gt;
+&lt;p&gt;Основная тема недели — написание сложных командных файлов (shell-скриптов) с использованием логических управляющих конструкций и циклов. Работа включала четыре самостоятельных задания.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание 1.&lt;/strong&gt; Написан командный файл с использованием &lt;code&gt;getopts&lt;/code&gt; и &lt;code&gt;grep&lt;/code&gt;. Скрипт анализирует аргументы командной строки: ключ &lt;code&gt;-i&lt;/code&gt; задаёт входной файл, &lt;code&gt;-o&lt;/code&gt; — выходной, &lt;code&gt;-p&lt;/code&gt; — шаблон для поиска, &lt;code&gt;-C&lt;/code&gt; включает чувствительность к регистру, &lt;code&gt;-n&lt;/code&gt; выводит номера строк. После разбора ключей скрипт выполняет поиск по файлу с помощью &lt;code&gt;grep&lt;/code&gt; и записывает результат в указанный файл вывода.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание 2.&lt;/strong&gt; На языке Си написана программа, которая читает число, определяет его знак и завершается через &lt;code&gt;exit(n)&lt;/code&gt;, передавая код завершения в оболочку. Командный файл вызывает эту программу и с помощью переменной &lt;code&gt;$?&lt;/code&gt; анализирует код завершения, выводя соответствующее сообщение: число больше нуля, меньше нуля или равно нулю.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание 3.&lt;/strong&gt; Написан командный файл, создающий заданное количество пронумерованных временных файлов (&lt;code&gt;1.tmp&lt;/code&gt;, &lt;code&gt;2.tmp&lt;/code&gt;, &amp;hellip;, &lt;code&gt;N.tmp&lt;/code&gt;). Число файлов передаётся аргументом командной строки. Тот же скрипт при передаче соответствующего ключа удаляет все созданные файлы, если они существуют.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание 4.&lt;/strong&gt; Написан командный файл, упаковывающий содержимое указанной директории в архив с помощью &lt;code&gt;tar&lt;/code&gt;. Скрипт доработан так, чтобы в архив попадали только файлы, изменённые менее недели назад — для фильтрации использована команда &lt;code&gt;find&lt;/code&gt; с параметром &lt;code&gt;-mtime&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
+&lt;p&gt;Неделя была посвящена практическому освоению управляющих конструкций Bash: &lt;code&gt;if&lt;/code&gt;/&lt;code&gt;else&lt;/code&gt;, циклов &lt;code&gt;while&lt;/code&gt; и &lt;code&gt;for&lt;/code&gt;, команды &lt;code&gt;getopts&lt;/code&gt; для разбора аргументов, а также взаимодействию командной оболочки с программами на Си через коды завершения. Все четыре задания выполнены и оформлены в виде отчёта с листингами и скриншотами.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>📈 Итоги недели</title>
@@ -92,267 +275,6 @@
       <guid>https://lebedev-s-a.github.io/personal_site/blog/data-visualization/</guid>
       <description>&lt;p&gt;На этой неделе я продолжил работу над лабораторными заданиями по операционным системам и изучал основы работы в Unix-подобных системах.&lt;/p&gt;
 &lt;p&gt;Также занимался настройкой окружения и выполнением практических заданий, связанных с командной строкой и файловой системой. Полученные знания помогают лучше понимать принципы работы операционных систем и взаимодействия с ними.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>scikit-learn</title>
-      <link>https://lebedev-s-a.github.io/personal_site/projects/scikit/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/projects/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>https://lebedev-s-a.github.io/personal_site/blog/teach-courses/</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/blog/teach-courses/</guid>
-      <description>&lt;p&gt;
- is designed to give technical content creators a seamless experience. You can focus on the content and the HugoBlox Kit which this template is built upon handles the rest.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
-&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-&lt;p&gt;Here&amp;rsquo;s an example of citing a publication using the cite shortcode:&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
-  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
-
-  
-  
-
-  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
-    &lt;span &gt;&lt;a href=&#34;&#34;&gt;Лебедев Сергей Алексеевич&lt;/a&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  (2026).
-  &lt;a href=&#34;https://lebedev-s-a.github.io/personal_site/publications/preprint/&#34; class=&#34;underline&#34;&gt;Язык разметки LaTeX&lt;/a&gt;.
-  
-
-  
-
-  
-  
-&lt;/div&gt;
-
-
-
-&lt;p&gt;You can also use the default view by omitting the view parameter:&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
-  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
-
-  
-  
-
-  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
-    &lt;span &gt;&lt;a href=&#34;&#34;&gt;Лебедев Сергей Алексеевич&lt;/a&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  (2026).
-  &lt;a href=&#34;https://lebedev-s-a.github.io/personal_site/publications/conference-paper/&#34; class=&#34;underline&#34;&gt;📈 Итоги недели&lt;/a&gt;.
-  
-
-  
-  &lt;div class=&#34;flex flex-wrap space-x-3&#34;&gt;
-    
-
-
-
-
-
-
-
-
- 
-
-
-  
-    
-    
-    
-    
-    
-    
-      
-        
-      
-    
-
-    
-    
-    
-      
-        
-      
-    
-    
-
-    
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;https://lebedev-s-a.github.io/personal_site/publications/conference-paper/conference-paper.pdf&#34;  &gt;
-        &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9&#34;/&gt;&lt;/svg&gt;
-        PDF
-      &lt;/a&gt;
-    
-  
-
-  
-    
-    
-    
-    
-    
-    
-      
-        
-      
-    
-
-    
-    
-    
-      
-        
-      
-    
-    
-
-    
-      &lt;button class=&#34;hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer&#34; type=&#34;button&#34; data-filename=&#34;/personal_site/publications/conference-paper/cite.bib&#34;&gt;
-        &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75&#34;/&gt;&lt;/svg&gt;
-        &lt;span&gt;Cite&lt;/span&gt;
-      &lt;/button&gt;
-    
-  
-
-
-  &lt;/div&gt;
-  
-
-  
-  
-&lt;/div&gt;
-
-
-
-&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
-&lt;p&gt;Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube D2vj0WcvH5c &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Bilibili&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; bilibili BV1WV4y1r7DF &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;Video file&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Videos may be added to a page by either placing them in your &lt;code&gt;assets/media/&lt;/code&gt; media library or in your 
-, and then embedding them with the &lt;em&gt;video&lt;/em&gt; shortcode:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; video src=&amp;quot;my_video.mp4&amp;quot; controls=&amp;quot;yes&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;podcast&#34;&gt;Podcast&lt;/h2&gt;
-&lt;p&gt;You can add a podcast or music to a page by placing the MP3 file in the page&amp;rsquo;s folder or the media library folder and then embedding the audio on your page with the &lt;em&gt;audio&lt;/em&gt; shortcode:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; audio src=&amp;quot;ambient-piano.mp3&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Try it out:&lt;/p&gt;
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-&lt;audio controls &gt;
-  &lt;source src=&#34;https://lebedev-s-a.github.io/personal_site/blog/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
-&lt;/audio&gt;
-
-&lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
-&lt;p&gt;Provide a simple yet fun self-assessment by revealing the solutions to challenges with the &lt;code&gt;spoiler&lt;/code&gt; shortcode:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; spoiler text=&amp;#34;👉 Click to view the solution&amp;#34; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;You found me!
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; /spoiler &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
-  &lt;summary class=&#34;cursor-pointer&#34;&gt;👉 Click to view the solution&lt;/summary&gt;
-  &lt;div class=&#34;rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2&#34;&gt;
-    You found me 🎉
-  &lt;/div&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-&lt;p&gt;HugoBlox Kit supports a Markdown extension for $\LaTeX$ math. Enable math by setting the &lt;code&gt;math: true&lt;/code&gt; option in your page&amp;rsquo;s front matter, or enable math for your entire site by toggling math in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;features&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;\gamma&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{ &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; | &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^T &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; |}{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the math linebreak (&lt;code&gt;\\&lt;/code&gt;):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;k;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;, &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
-1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
-$$&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-&lt;p&gt;HugoBlox Kit utilises Hugo&amp;rsquo;s Markdown extension for highlighting code syntax. The code theme can be selected in the &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;inline-images&#34;&gt;Inline Images&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;icon&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;python&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Python&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;
-  &lt;span class=&#34;inline-block  pr-1&#34;&gt;
-    &lt;span style=&#34;height: 1em; transform: translateY(0.1em);&#34;&gt;python&lt;/span&gt;
-  &lt;/span&gt; Python&lt;/p&gt;
-&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
 </description>
     </item>
     

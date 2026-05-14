@@ -13,6 +13,173 @@
     </image>
     
     <item>
+      <title>Индивидуальный проект — Персональный академический сайт</title>
+      <link>https://lebedev-s-a.github.io/personal_site/projects/pytorch/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://lebedev-s-a.github.io/personal_site/projects/pytorch/</guid>
+      <description>&lt;p&gt;Разработка персонального академического сайта на платформе Hugo Blox с размещением на GitHub Pages — индивидуальный проект в рамках курса «Операционные системы» (РУДН, 1 курс, направление 02.03.00 Компьютерные и информационные науки). Руководитель: профессор Кулябов Д. С.&lt;/p&gt;
+&lt;h2 id=&#34;о-проекте&#34;&gt;О проекте&lt;/h2&gt;
+&lt;p&gt;Цель проекта — создать полноценный персональный академический сайт, охватывающий все аспекты профессионального профиля: биографию, навыки, опыт, достижения, научные ссылки и публикации. Сайт построен на генераторе статических страниц &lt;strong&gt;Hugo&lt;/strong&gt; с темой &lt;strong&gt;Hugo Blox&lt;/strong&gt; (Academic), размещён на &lt;strong&gt;GitHub Pages&lt;/strong&gt; и поддерживает два языка — русский и английский.&lt;/p&gt;
+&lt;p&gt;Проект реализован поэтапно: каждый этап добавлял новый блок функциональности и сопровождался тематическим постом.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-1-размещение-заготовки-сайта-на-github-pages&#34;&gt;Этап 1. Размещение заготовки сайта на GitHub Pages&lt;/h2&gt;
+&lt;p&gt;На первом этапе было установлено необходимое программное обеспечение: Hugo Extended, Git, а также настроена локальная среда разработки. Скачан шаблон темы Hugo Blox Academic и размещён в репозитории на GitHub. Настроен параметр &lt;code&gt;baseURL&lt;/code&gt; в конфигурационном файле &lt;code&gt;config.yaml&lt;/code&gt; — указан адрес будущего сайта в домене &lt;code&gt;github.io&lt;/code&gt;. Репозиторий подключён к GitHub Pages через ветку &lt;code&gt;gh-pages&lt;/code&gt; с автоматической публикацией средствами GitHub Actions. После первого деплоя сайт стал доступен по публичному адресу.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пост этапа:&lt;/strong&gt; пост по прошедшей неделе — первые шаги с Hugo и GitHub Pages.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-2-добавление-данных-о-владельце-сайта&#34;&gt;Этап 2. Добавление данных о владельце сайта&lt;/h2&gt;
+&lt;p&gt;На втором этапе сайт был наполнен персональной информацией. В файле &lt;code&gt;content/authors/admin/_index.md&lt;/code&gt; размещена фотография владельца и заполнены все основные поля профиля:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Фотография&lt;/strong&gt; — загружен файл &lt;code&gt;avatar.jpg&lt;/code&gt; в папку профиля; имя и должность отображаются на главной странице.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Biography / Professional Summary&lt;/strong&gt; — добавлено краткое описание: студент направления «Компьютерные науки» РУДН, изучающий программирование, архитектуру компьютеров и операционные системы.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interests&lt;/strong&gt; — перечислены интересы: программирование на Python и C++, компьютерные технологии, веб-разработка, изучение иностранных языков.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Education&lt;/strong&gt; — добавлена запись о бакалавриате: направление «Компьютерные науки», РУДН, с сентября 2025 года по настоящее время.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Созданы два поста: еженедельный отчёт о работе с сайтом и тематический пост &lt;strong&gt;«Управление версиями. Git»&lt;/strong&gt; — введение в систему контроля версий, основные концепции, принцип работы, преимущества использования в учебных и рабочих проектах.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-3-добавление-достижений&#34;&gt;Этап 3. Добавление достижений&lt;/h2&gt;
+&lt;p&gt;На третьем этапе заполнены блоки, отражающие профессиональный профиль владельца:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Skills&lt;/strong&gt; — добавлены технические навыки: языки программирования (Python, C++, Bash), инструменты (Git, Linux, LaTeX, Pandoc), уровни владения представлены в виде шкал.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experience&lt;/strong&gt; — добавлена информация об опыте: учебные проекты, лабораторные работы по операционным системам, работа с командной строкой Linux.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accomplishments&lt;/strong&gt; — добавлены достижения: прохождение курса на Stepik по основам Linux, успешное прохождение цикла лабораторных работ по ОС.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Тематический пост этапа — &lt;strong&gt;«Язык разметки Markdown»&lt;/strong&gt;: история создания, синтаксис заголовков, списков, кода, таблиц и ссылок; применение Markdown в академических документах и на платформах Hugo и GitHub.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-4-добавление-научных-и-библиометрических-ссылок&#34;&gt;Этап 4. Добавление научных и библиометрических ссылок&lt;/h2&gt;
+&lt;p&gt;На четвёртом этапе выполнена регистрация на ключевых научных платформах и размещение ссылок в профиле сайта в блоке &lt;code&gt;social&lt;/code&gt;:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Платформа&lt;/th&gt;
+          &lt;th&gt;Назначение&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;eLibrary&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Российская научная электронная библиотека&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Google Scholar&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Поиск академических публикаций&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ORCID&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Уникальный идентификатор исследователя&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Mendeley&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Менеджер библиографии и PDF&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ResearchGate&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Социальная сеть для учёных&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Academia.edu&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Платформа для обмена академическими работами&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;arXiv&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Препринты по точным наукам и CS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Репозитории учебных и личных проектов&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Тематический пост этапа — &lt;strong&gt;«Создание презентаций»&lt;/strong&gt;: сравнение инструментов (PowerPoint, Google Slides, Beamer/LaTeX), описание рабочего процесса создания презентаций через Pandoc и тему Metropolis с шрифтами IBM Plex.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-5-добавление-проектов-и-дополнительных-элементов&#34;&gt;Этап 5. Добавление проектов и дополнительных элементов&lt;/h2&gt;
+&lt;p&gt;На пятом этапе на сайте оформлены записи для персональных проектов в разделе &lt;code&gt;content/project/&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Лабораторные работы по ОС&lt;/strong&gt; — цикл из 14 работ по Unix/Linux (командная строка, файловая система, права доступа, текстовые редакторы vi и Midnight Commander).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Индивидуальный проект — данный сайт&lt;/strong&gt; — описание этапов разработки академического сайта на Hugo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Тематический пост этапа — &lt;strong&gt;«Языки научного программирования»&lt;/strong&gt;: обзор Python, R, Julia и MATLAB; сравнение экосистем для научных вычислений, визуализации данных и написания воспроизводимых исследований.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-6-двуязычный-сайт-на-github&#34;&gt;Этап 6. Двуязычный сайт на GitHub&lt;/h2&gt;
+&lt;p&gt;Заключительный этап — добавление поддержки двух языков. В конфигурации Hugo активированы два языка (&lt;code&gt;ru&lt;/code&gt; и &lt;code&gt;en&lt;/code&gt;), созданы папки &lt;code&gt;content/ru/&lt;/code&gt; и &lt;code&gt;content/en/&lt;/code&gt; с параллельными версиями всех страниц. Переключатель языка отображается в шапке сайта. Все ключевые разделы переведены: биография, интересы, образование, навыки, описания проектов. Оба поста этапа — еженедельный отчёт и тематический — написаны на русском и английском языках одновременно.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;стек-технологий&#34;&gt;Стек технологий&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Инструмент&lt;/th&gt;
+          &lt;th&gt;Роль&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hugo Extended&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Генератор статического сайта&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hugo Blox (Academic)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Тема с готовыми блоками профиля&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Хостинг и публикация&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;GitHub Actions&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Автоматический деплой при push&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Язык разметки контента&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Git&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Управление версиями исходников сайта&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
+&lt;p&gt;За шесть этапов создан полноценный персональный академический сайт: от пустой заготовки до двуязычного ресурса с профилем, проектами, публикациями и научными ссылками. Проект дал практику работы с Hugo, GitHub Actions, Markdown и системой контроля версий Git в контексте реального публичного продукта.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Лабораторные работы по операционным системам</title>
+      <link>https://lebedev-s-a.github.io/personal_site/projects/scikit/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://lebedev-s-a.github.io/personal_site/projects/scikit/</guid>
+      <description>&lt;p&gt;Цикл из 14 лабораторных работ по дисциплине «Архитектура компьютеров и операционные системы» (раздел «Операционные системы»), выполненных в рамках первого курса направления 02.03.00 Компьютерные и информационные науки в РУДН под руководством профессора Кулябова Д. С.&lt;/p&gt;
+&lt;h2 id=&#34;о-проекте&#34;&gt;О проекте&lt;/h2&gt;
+&lt;p&gt;В ходе курса последовательно изучались принципы устройства и работы операционных систем семейства Linux/Unix: от базовых команд командной строки до управления правами доступа, работы с текстовыми редакторами и файловыми архивами. Каждая лабораторная работа сопровождалась оформленным отчётом и презентацией в формате Beamer, собранными с помощью Pandoc и XeLaTeX.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-15-установка-и-настройка-рабочей-среды&#34;&gt;ЛР №1–5. Установка и настройка рабочей среды&lt;/h2&gt;
+&lt;p&gt;Первые лабораторные работы были посвящены знакомству с виртуальной машиной и начальной настройке Linux-окружения: установке дистрибутива, первичной конфигурации пользователя, настройке системы и знакомству с графическим интерфейсом. Были изучены основные понятия: файловая система, пользователи и группы, права доступа на уровне теории.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-6-основы-командной-строки-unix&#34;&gt;ЛР №6. Основы командной строки Unix&lt;/h2&gt;
+&lt;p&gt;Лабораторная работа познакомила с основным инструментом взаимодействия пользователя с системой — командной строкой. Отработаны команды навигации по файловой системе (&lt;code&gt;cd&lt;/code&gt;, &lt;code&gt;pwd&lt;/code&gt;), просмотра содержимого каталогов (&lt;code&gt;ls&lt;/code&gt;) с ключами &lt;code&gt;-a&lt;/code&gt;, &lt;code&gt;-l&lt;/code&gt;, &lt;code&gt;-R&lt;/code&gt;, &lt;code&gt;-lt&lt;/code&gt;, создания и удаления каталогов (&lt;code&gt;mkdir&lt;/code&gt;, &lt;code&gt;rm -r&lt;/code&gt;). Изучена справочная система &lt;code&gt;man&lt;/code&gt; применительно к командам &lt;code&gt;cd&lt;/code&gt;, &lt;code&gt;pwd&lt;/code&gt;, &lt;code&gt;mkdir&lt;/code&gt;, &lt;code&gt;rmdir&lt;/code&gt;, &lt;code&gt;rm&lt;/code&gt;. Освоена работа с историей команд (&lt;code&gt;history&lt;/code&gt;): повтор и модификация команд по номеру из буфера с конструкциями &lt;code&gt;!N&lt;/code&gt; и &lt;code&gt;!N:s/старое/новое&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-7-анализ-файловой-системы-linux&#34;&gt;ЛР №7. Анализ файловой системы Linux&lt;/h2&gt;
+&lt;p&gt;Работа была посвящена углублённому изучению команд для работы с файлами и каталогами. Отработано копирование (&lt;code&gt;cp&lt;/code&gt;, &lt;code&gt;cp -r&lt;/code&gt;), перемещение и переименование (&lt;code&gt;mv&lt;/code&gt;), создание файлов (&lt;code&gt;touch&lt;/code&gt;). Освоено управление правами доступа командой &lt;code&gt;chmod&lt;/code&gt; в символьном формате (&lt;code&gt;u+x&lt;/code&gt;, &lt;code&gt;g-r&lt;/code&gt;) и восьмеричном (&lt;code&gt;chmod 744&lt;/code&gt;, &lt;code&gt;chmod 711&lt;/code&gt;, &lt;code&gt;chmod 664&lt;/code&gt;). Практически продемонстрировано, как ограничение права чтения (&lt;code&gt;u-r&lt;/code&gt;) блокирует &lt;code&gt;cat&lt;/code&gt; и &lt;code&gt;cp&lt;/code&gt;, а ограничение права выполнения (&lt;code&gt;u-x&lt;/code&gt;) делает невозможным вход в каталог. Изучены системные команды &lt;code&gt;mount&lt;/code&gt;, &lt;code&gt;fsck&lt;/code&gt;, &lt;code&gt;mkfs&lt;/code&gt; и &lt;code&gt;kill&lt;/code&gt; по справочным страницам &lt;code&gt;man&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-8-текстовые-редакторы&#34;&gt;ЛР №8. Текстовые редакторы&lt;/h2&gt;
+&lt;p&gt;Лабораторная работа охватывала знакомство с несколькими текстовыми редакторами, доступными в Unix-системах. Изучены возможности редактирования файлов непосредственно в терминале без графического интерфейса.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-9-midnight-commander&#34;&gt;ЛР №9. Midnight Commander&lt;/h2&gt;
+&lt;p&gt;Освоен файловый менеджер Midnight Commander (&lt;code&gt;mc&lt;/code&gt;). Изучена навигация по двухпанельному интерфейсу, операции с файлами с помощью функциональных клавиш (F3 — просмотр, F4 — редактирование, F7 — создание каталога, F5/F6 — копирование/перемещение). Отработан встроенный текстовый редактор mc: вставка и удаление фрагментов текста, копирование и перемещение блоков, отмена действий. Изучена подсветка синтаксиса на примере HTML-файла. Использованы пункты подменю &lt;strong&gt;Команда&lt;/strong&gt; для поиска файлов и просмотра истории команд.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-10-текстовой-редактор-vi&#34;&gt;ЛР №10. Текстовой редактор vi&lt;/h2&gt;
+&lt;p&gt;Выполнены два задания в редакторе vi — стандартном редакторе Unix-систем. В первом задании создан каталог &lt;code&gt;~/work/os/lab06&lt;/code&gt;, вызван редактор, введён текст Bash-скрипта &lt;code&gt;hello.sh&lt;/code&gt; в режиме вставки (клавиша &lt;code&gt;i&lt;/code&gt;) и файл сохранён командой &lt;code&gt;:wq&lt;/code&gt;. Во втором задании файл открыт повторно, внесены правки: исправлено имя переменной &lt;code&gt;HELL&lt;/code&gt; → &lt;code&gt;HELLO&lt;/code&gt;, удалено слово &lt;code&gt;LOCAL&lt;/code&gt;, строка приведена к нижнему регистру (&lt;code&gt;local&lt;/code&gt;), добавлена новая строка в конец файла. Отработаны команды &lt;code&gt;dd&lt;/code&gt; (удаление строки) и &lt;code&gt;u&lt;/code&gt; (отмена). Скрипт запущен командой &lt;code&gt;./hello.sh&lt;/code&gt; — вывод &lt;code&gt;World&lt;/code&gt; подтвердил корректность программы.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;лр-1114-продвинутые-темы&#34;&gt;ЛР №11–14. Продвинутые темы&lt;/h2&gt;
+&lt;p&gt;В заключительных лабораторных работах рассматривались более сложные аспекты работы с операционной системой: написание сценариев командной оболочки (shell scripting), работа с переменными окружения, планировщики задач и дополнительные инструменты администрирования системы.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;инструменты-и-технологии&#34;&gt;Инструменты и технологии&lt;/h2&gt;
+&lt;p&gt;Все отчёты оформлены в формате Markdown с компиляцией через &lt;strong&gt;Pandoc&lt;/strong&gt; + &lt;strong&gt;XeLaTeX&lt;/strong&gt; в PDF. Презентации собраны на основе темы &lt;strong&gt;Beamer Metropolis&lt;/strong&gt; с шрифтами &lt;strong&gt;IBM Plex&lt;/strong&gt;. Библиография оформлена по ГОСТ с помощью &lt;strong&gt;biblatex&lt;/strong&gt; и стиля &lt;code&gt;gost-numeric&lt;/code&gt;. Перекрёстные ссылки на рисунки реализованы через &lt;strong&gt;pandoc-crossref&lt;/strong&gt;. Исходный код всех работ хранится на GitHub.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
+&lt;p&gt;В результате прохождения курса сформированы устойчивые практические навыки работы с командной строкой Linux, управления файловой системой, правами доступа и текстовыми редакторами. Освоен полный цикл подготовки академических документов с использованием современного инструментария: Pandoc, XeLaTeX, Beamer, Hugo Blox.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Курс «Введение в Linux» на Stepik</title>
       <link>https://lebedev-s-a.github.io/personal_site/projects/pandas/</link>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
@@ -74,22 +241,6 @@
 &lt;p&gt;&lt;strong&gt;gnuplot.&lt;/strong&gt; Разобрал построение и настройку 2D и 3D графиков. Детально разобрал опцию &lt;code&gt;--persist&lt;/code&gt;, подписи осей через конкатенацию строк, команду &lt;code&gt;set key autotitle columnhead&lt;/code&gt;. Реализовал модификацию скрипта анимации &lt;code&gt;move.rot&lt;/code&gt;: зеркальное отражение графика, вращение в обратную сторону и в два раза быстрее.&lt;/p&gt;
 &lt;h2 id=&#34;итог&#34;&gt;Итог&lt;/h2&gt;
 &lt;p&gt;Курс пройден полностью с результатом &lt;strong&gt;125 из 125 баллов&lt;/strong&gt; и прогрессом &lt;strong&gt;125/125 шагов&lt;/strong&gt;. Материал хорошо структурирован и постепенно усложняется. Особенно полезными оказались практические задания с проверкой через stdin/stdout - они заставляют думать не только о логике, но и о краевых случаях.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://lebedev-s-a.github.io/personal_site/projects/pytorch/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/projects/pytorch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>scikit-learn</title>
-      <link>https://lebedev-s-a.github.io/personal_site/projects/scikit/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://lebedev-s-a.github.io/personal_site/projects/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
     </item>
     
   </channel>

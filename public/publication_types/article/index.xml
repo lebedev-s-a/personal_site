@@ -5,12 +5,129 @@
     <link>https://lebedev-s-a.github.io/personal_site/publication_types/article/</link>
       <atom:link href="https://lebedev-s-a.github.io/personal_site/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
     <description>Article</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lebedev-s-a.github.io/personal_site/media/icon_hu_da05098ef60dc2e7.png</url>
       <title>Article</title>
       <link>https://lebedev-s-a.github.io/personal_site/publication_types/article/</link>
     </image>
+    
+    <item>
+      <title>Языки научного программирования</title>
+      <link>https://lebedev-s-a.github.io/personal_site/publications/preprint-copy/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://lebedev-s-a.github.io/personal_site/publications/preprint-copy/</guid>
+      <description>&lt;p&gt;Научное программирование — это область, в которой программный код используется для решения задач из математики, физики, биологии, экономики, инженерии и других точных и естественных наук. В отличие от прикладного программирования, здесь на первом месте стоят точность вычислений, удобная работа с данными и возможность быстро проверять гипотезы. Для этих задач сложились специализированные языки и среды, каждый из которых имеет свою экосистему инструментов.&lt;/p&gt;
+&lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
+&lt;p&gt;Python сегодня является наиболее распространённым языком в научном сообществе. Его популярность объясняется простым и читаемым синтаксисом, огромным количеством библиотек и активным сообществом разработчиков.&lt;/p&gt;
+&lt;p&gt;Для научных вычислений Python предлагает богатую экосистему:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;NumPy&lt;/strong&gt; — работа с многомерными массивами и матричными операциями;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SciPy&lt;/strong&gt; — алгоритмы оптимизации, интегрирования, обработки сигналов;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pandas&lt;/strong&gt; — анализ и обработка табличных данных;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Matplotlib&lt;/strong&gt; и &lt;strong&gt;Seaborn&lt;/strong&gt; — визуализация данных;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;scikit-learn&lt;/strong&gt; — машинное обучение;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TensorFlow&lt;/strong&gt; и &lt;strong&gt;PyTorch&lt;/strong&gt; — глубокое обучение и нейронные сети.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python хорошо подходит как для быстрого прототипирования, так и для создания полноценных исследовательских пайплайнов. Jupyter Notebook и JupyterLab позволяют вести интерактивные вычисления прямо в браузере, объединяя код, текст, формулы и графики в одном документе.&lt;/p&gt;
+&lt;p&gt;Пример простого вычисления с NumPy:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linspace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pi&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mean&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;r&#34;&gt;R&lt;/h2&gt;
+&lt;p&gt;R — язык, изначально созданный специально для статистических вычислений и анализа данных. Он широко используется в биологии, медицине, экономике и социальных науках.&lt;/p&gt;
+&lt;p&gt;Основные особенности R:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;встроенная поддержка векторных и матричных операций;&lt;/li&gt;
+&lt;li&gt;богатый набор статистических функций прямо в базовой поставке;&lt;/li&gt;
+&lt;li&gt;мощная система визуализации на основе библиотеки &lt;strong&gt;ggplot2&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;среда &lt;strong&gt;RStudio&lt;/strong&gt; для удобной работы с кодом и данными;&lt;/li&gt;
+&lt;li&gt;пакетный менеджер &lt;strong&gt;CRAN&lt;/strong&gt; с тысячами специализированных пакетов.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;R особенно силён там, где нужно провести статистический анализ, построить качественный график или работать с биоинформатическими данными. Язык активно применяется в академической среде при написании статей и обработке экспериментальных результатов.&lt;/p&gt;
+&lt;h2 id=&#34;julia&#34;&gt;Julia&lt;/h2&gt;
+&lt;p&gt;Julia — относительно молодой язык, созданный в 2012 году с конкретной целью: сочетать простоту написания кода, характерную для Python и R, с производительностью, сопоставимой с C и Fortran. Это делает Julia особенно привлекательной для задач, где важна скорость вычислений.&lt;/p&gt;
+&lt;p&gt;Ключевые особенности Julia:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;высокая производительность за счёт JIT-компиляции;&lt;/li&gt;
+&lt;li&gt;удобный синтаксис, близкий к математической нотации;&lt;/li&gt;
+&lt;li&gt;встроенная поддержка параллельных и распределённых вычислений;&lt;/li&gt;
+&lt;li&gt;активно развивающаяся экосистема пакетов для математики, физики и машинного обучения.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Julia хорошо зарекомендовала себя в численном моделировании, вычислительной физике и задачах оптимизации, где важно получить результат быстро без написания низкоуровневого кода.&lt;/p&gt;
+&lt;h2 id=&#34;matlab&#34;&gt;MATLAB&lt;/h2&gt;
+&lt;p&gt;MATLAB — коммерческая среда для численных вычислений, разработанная компанией MathWorks. Он долгое время был стандартом в инженерных и технических дисциплинах, и сегодня остаётся широко используемым инструментом в промышленности и академической среде.&lt;/p&gt;
+&lt;p&gt;MATLAB предлагает:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;удобную работу с матрицами и линейной алгеброй;&lt;/li&gt;
+&lt;li&gt;встроенные инструменты для моделирования и симуляции (&lt;strong&gt;Simulink&lt;/strong&gt;);&lt;/li&gt;
+&lt;li&gt;обширный набор специализированных тулбоксов (обработка сигналов, компьютерное зрение, управление);&lt;/li&gt;
+&lt;li&gt;удобную интерактивную среду с визуализацией результатов.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Основной недостаток MATLAB — коммерческая лицензия, что ограничивает его использование в учебных и некоммерческих проектах. В качестве открытой альтернативы часто используется &lt;strong&gt;GNU Octave&lt;/strong&gt;, совместимый с большинством синтаксиса MATLAB.&lt;/p&gt;
+&lt;h2 id=&#34;сравнение-языков&#34;&gt;Сравнение языков&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Критерий&lt;/th&gt;
+          &lt;th&gt;Python&lt;/th&gt;
+          &lt;th&gt;R&lt;/th&gt;
+          &lt;th&gt;Julia&lt;/th&gt;
+          &lt;th&gt;MATLAB&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Лицензия&lt;/td&gt;
+          &lt;td&gt;открытая&lt;/td&gt;
+          &lt;td&gt;открытая&lt;/td&gt;
+          &lt;td&gt;открытая&lt;/td&gt;
+          &lt;td&gt;коммерческая&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Производительность&lt;/td&gt;
+          &lt;td&gt;средняя&lt;/td&gt;
+          &lt;td&gt;средняя&lt;/td&gt;
+          &lt;td&gt;высокая&lt;/td&gt;
+          &lt;td&gt;высокая&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Статистика&lt;/td&gt;
+          &lt;td&gt;хорошо&lt;/td&gt;
+          &lt;td&gt;отлично&lt;/td&gt;
+          &lt;td&gt;хорошо&lt;/td&gt;
+          &lt;td&gt;хорошо&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Машинное обучение&lt;/td&gt;
+          &lt;td&gt;отлично&lt;/td&gt;
+          &lt;td&gt;хорошо&lt;/td&gt;
+          &lt;td&gt;хорошо&lt;/td&gt;
+          &lt;td&gt;хорошо&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Порог входа&lt;/td&gt;
+          &lt;td&gt;низкий&lt;/td&gt;
+          &lt;td&gt;средний&lt;/td&gt;
+          &lt;td&gt;средний&lt;/td&gt;
+          &lt;td&gt;средний&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Сообщество&lt;/td&gt;
+          &lt;td&gt;огромное&lt;/td&gt;
+          &lt;td&gt;большое&lt;/td&gt;
+          &lt;td&gt;растущее&lt;/td&gt;
+          &lt;td&gt;большое&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
+&lt;p&gt;Выбор языка научного программирования зависит от конкретной задачи и области знаний. Python подходит практически для всего и является хорошим выбором для начала. R незаменим в статистике и анализе данных. Julia ориентирована на высокопроизводительные вычисления. MATLAB остаётся стандартом в инженерии и промышленном моделировании.&lt;/p&gt;
+&lt;p&gt;В современной науке нередко используют несколько языков одновременно, выбирая наиболее удобный инструмент под конкретную подзадачу. Освоение хотя бы одного из перечисленных языков существенно расширяет возможности исследователя и открывает доступ к богатой экосистеме научных инструментов.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Язык разметки LaTeX</title>
